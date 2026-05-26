@@ -21,7 +21,7 @@ Sugerimos organizar esta lección en el repositorio de la siguiente manera:
 > Piensa en programar como escribir una receta de cocina. La computadora es un chef excelente, muy rápido, pero que necesita instrucciones extremadamente precisas. No puedes solo decirle "haz un sándwich". Tienes que decirle "abre la bolsa de pan, toma dos rebanadas...". Cada línea de código que escribimos es simplemente un paso en esa receta.
 >
 > **(2:00 - 3:30) Nuestro Primer Programa: ¡Hola Mundo!**
-> Para nuestro primer programa, no necesitas descargar ni instalar nada. Abriremos nuestro navegador web en plataformas como Replit o JDoodle. Vamos a hacer que la computadora nos salude. Esto es una tradición entre los programadores llamada "Hola Mundo". Fíjate en la pantalla. Escribimos `System.out.println("¡Hola Mundo!");`. Esta es nuestra forma de decirle a la computadora: "Imprime este texto tal cual".
+> Para nuestro primer programa, no necesitas descargar ni instalar nada. Abriremos nuestro navegador web en la plataforma GDB Online. Vamos a hacer que la computadora nos salude. Esto es una tradición entre los programadores llamada "Hola Mundo". Fíjate en la pantalla. Escribimos `System.out.println("¡Hola Mundo!");`. Esta es nuestra forma de decirle a la computadora: "Imprime este texto tal cual".
 >
 > **(3:30 - 4:30) Explicación del Código sin Jerga**
 > Sé que puede verse un poco extraño al principio. Alrededor de nuestra instrucción, hay palabras como `class` y `main`. Por ahora, piensa en `class` como el recetario completo, y en `main` como la puerta principal por donde el chef entra a leer la primera receta. Lo importante está adentro de esas llaves, que actúan como las tapas de un libro.
