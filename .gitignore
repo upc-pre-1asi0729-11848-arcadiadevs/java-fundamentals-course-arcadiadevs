@@ -3,3 +3,5 @@
 *.html
 *.docx
 .DS_Store
+
+build/
