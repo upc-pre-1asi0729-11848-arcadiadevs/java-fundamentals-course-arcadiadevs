@@ -1,15 +1,14 @@
-﻿# Lección 1: ¡Hola Mundo! Tu Primer Programa
+﻿# Lección 1: ¡Hola Mundo! Tu Primer Programa (Instructor)
 
 ## 1. Estructura de Carpetas (GitHub)
 
 Sugerimos organizar esta lección en el repositorio de la siguiente manera:
 
 ```text
-/lesson-1
-├── /starter          # Carpeta vacía o con un archivo Main.java base
-│   └── Main.java
-└── /completed        # El código completo de la lección
-    └── Main.java
+/starter-files/lesson-01        # Carpeta vacía o con un archivo Main.java base
+└── Main.java
+/completed-examples/lesson-01   # El código completo de la lección
+└── Main.java
 ```
 
 ## 2. Guion de Video (5 minutos)
@@ -29,52 +28,7 @@ Sugerimos organizar esta lección en el repositorio de la siguiente manera:
 > **(4:30 - 5:00) Cierre y Desafío**
 > ¡Felicidades! Acabas de escribir tu primera aplicación. Ahora es tu turno. Intenta cambiar el texto para que la computadora diga tu nombre o tu comida favorita. ¡Nos vemos en la siguiente lección donde aprenderemos a guardar secretos en cajas mágicas!
 
-## 3. Código de Ejemplo
-
-El siguiente código es compatible con Replit o JDoodle y puede ser utilizado sin configuración.
-
-```java
-// Este es el recetario principal de nuestra aplicación
-public class Main {
-
-    // Esta es "la puerta de entrada" donde comienza a ejecutarse todo
-    public static void main(String[] args) {
-
-        // Aquí le decimos a la computadora que muestre un mensaje en pantalla
-        System.out.println("¡Hola Mundo! Soy un creador de tecnología.");
-
-    }
-}
-```
-
-## 4. Actividad Práctica: "Pausa para la práctica"
-
-**El Reto de la Presentación:**
-Ya lograste que la computadora diga "¡Hola Mundo!". Ahora, tu objetivo es cambiar el mensaje para presentarte a ti mismo.
-
-1. Identifica la frase entre comillas en el código: `"¡Hola Mundo!..."`
-2. Cámbiala por algo como `"¡Hola, soy [Tu Nombre] y me encanta el helado!"`
-3. Presiona el botón de "Ejecutar" (Run) en tu plataforma y verifica que funcione.
-
-_Nota: Recuerda no borrar las comillas `""` ni el punto y coma `;` al final de la instrucción._
-
-## 5. Proyecto Integrador: El Registro de Estudiantes
-
-A lo largo del curso, construiremos juntos un pequeño sistema para registrar estudiantes en un club escolar. Nuestra contribución en esta primera lección será muy sencilla: darle la bienvenida al usuario al iniciar el sistema.
-
-**Agrega esta línea a tu código:**
-
-```java
-System.out.println("--- Sistema de Registro del Club Escolar ---");
-System.out.println("¡Bienvenido al sistema!");
-```
-
-## 6. Referencias y Bibliografía
-
-- **Oracle Java Tutorial:** [A Closer Look at the "Hello World!" Application](https://docs.oracle.com/javase/tutorial/getStarted/cupojava/index.html)
-- **Plataformas sugeridas sin requisito de instalación:** [JDoodle (Java Online Compiler)](https://www.jdoodle.com/online-java-compiler/) o [Replit](https://replit.com/).
-
-## 7. Sugerencias Multimedia
+## 3. Sugerencias Multimedia
 
 - **Anotaciones en Pantalla:** Durante el minuto 2:00, mostrar una pantalla dividida: a la izquierda, una receta real ("Paso 1: Cortar pan") y a la derecha, líneas de código básico, para reforzar la analogía.
 - **Resaltado de Sintaxis:** Cuando se mencione `System.out.println`, hacer un _zoom in_ (acercamiento) suave hacia ese código y colorear las comillas de un color brillante y el punto y coma de color rojo para enmarcar su importancia.
