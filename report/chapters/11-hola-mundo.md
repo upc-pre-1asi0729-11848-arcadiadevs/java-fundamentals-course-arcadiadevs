@@ -10,7 +10,7 @@ Empieza a programar de inmediato (¡Sin instalar nada!):
 
 - **[Abrir OnlineGDB - Código inicial precargado: https://onlinegdb.com/k7D7hK9uZ](https://onlinegdb.com/k7D7hK9uZ)**
 
-![Captura de OnlineGDB con el proyecto precargado](../assets/class-1/onlinegdb-precargado.png)
+![Captura de OnlineGDB con el proyecto precargado](../assets/class-1/onlinegdb-logo.jpg)
 
 *La captura muestra el entorno listo para ejecutar el primer programa sin instalar nada.*
 
