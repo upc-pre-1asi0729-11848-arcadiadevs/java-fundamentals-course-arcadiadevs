@@ -6,9 +6,9 @@ Sugerimos organizar esta lección en el repositorio de la siguiente manera:
 
 ```text
 /starter-files/lesson-02        # Archivo base con la estructura de la clase y el main
-+-- Main.java
+               └── Main.java
 /completed-examples/lesson-02   # El código completo con las variables creadas
-+-- Main.java
+                    └── Main.java
 ```
 
 ## 2. Guion de Video (7 minutos)
