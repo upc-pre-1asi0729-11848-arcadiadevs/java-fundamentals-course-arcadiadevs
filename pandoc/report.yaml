@@ -16,4 +16,4 @@ pdf-engine: xelatex
 resource-path:
   - .
   - report
-  - assets
+  - report/assets
