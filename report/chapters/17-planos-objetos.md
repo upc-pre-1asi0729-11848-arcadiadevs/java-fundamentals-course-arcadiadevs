@@ -22,7 +22,7 @@ Sugerimos organizar esta lección en el repositorio de la siguiente manera:
 > Piensa en cuando horneas galletas. Usas un molde de metal con forma de estrella. El molde en sí no se puede comer, ¿verdad? Solo sirve para darle forma a la masa. En Java, a ese molde le llamamos `Clase`. Es el plano o diseño. Cuando usamos ese molde en la masa y la horneamos, obtenemos una galleta real que sí podemos comer y decorar. A esa galleta terminada le llamamos `Objeto`. A partir de un solo molde o Clase, ¡podemos crear cien galletas u Objetos diferentes!
 >
 > **(3:30 - 5:30) Partes del Molde: Atributos y Constructores**
-> Para construir nuestro propio molde en Java, por ejemplo el plano de un `Auto`, necesitamos decirle dos cosas. Primero, ¿qué características tendrá toda galleta que salga de aquí? A esto le llamamos "Atributos": como el `color` o la `velocidadMaxima`. Segundo: necesitamos un manual de ensamblaje. En Java, este manual recibe el nombre exacto de la clase y se llama "Constructor". Es el bloque de código que se ejecuta en el instante exacto en que nace nuestro objeto, para pintarlo del color que queramos antes de que salga de la fábrica.
+> Para construir nuestro propio molde en Java, por ejemplo el plano de un `Auto`, necesitamos decirle dos cosas. Primero, ¿qué características tendrá todo auto que salga de aquí? A esto le llamamos "Atributos": como el `color` o la `velocidad`. Segundo: necesitamos un manual de ensamblaje. En Java, este manual recibe el nombre exacto de la clase y se llama "Constructor". Es el bloque de código que se ejecuta en el instante exacto en que nace nuestro objeto, para pintarlo del color que queramos antes de que salga de la fábrica.
 >
 > **(5:30 - 8:00) Código en Acción: Fabricando un Auto**
 > Miremos la pantalla. Fuera de nuestra puerta principal (`main`), vamos a crear un nuevo recetario llamado `class Auto`. Le pondremos dos cajas mágicas vacías: un `String color` y un `int velocidad`. Luego, creamos el constructor `public Auto(...)` donde recibiremos los datos de fábrica. Ahora lo más emocionante: volvamos a nuestro bloque `main`. Para crear el objeto real usaremos la palabra mágica `new` (que significa "nuevo" y manda a fabricar el objeto). Escribiremos: `Auto miCoche = new Auto("Rojo", 150);`. ¡Acabamos de materializar un auto dentro de la memoria de la computadora!
@@ -40,14 +40,14 @@ class Auto {
     
     // Atributos (Las características que tendrá cada auto creado)
     String color;
-    int velocidadMaxima;
+    int velocidad;
     
     // El Constructor (El manual de ensamblaje que se lanza al fabricar un auto)
     public Auto(String colorRecibido, int velocidadRecibida) {
         
         // Guardamos los datos de fábrica en los atributos del auto
         color = colorRecibido;
-        velocidadMaxima = velocidadRecibida;
+        velocidad = velocidadRecibida;
         
         System.out.println("¡Un auto " + color + " ha sido ensamblado en la fábrica!");
         
@@ -61,15 +61,12 @@ public class Main {
         System.out.println("--- 2. INICIANDO LA FÁBRICA EN EL MAIN ---");
         
         // Crear (Instanciar) un Objeto real usando el molde Auto y la palabra 'new'
-        Auto autoDelHeroe = new Auto("Negro", 250);
+        Auto miCoche = new Auto("Rojo", 150);
         
-        // Crear un SEGUNDO Objeto totalmente distinto usando el mismo molde
-        Auto autoDelVillano = new Auto("Morado", 300);
-        
-        // Comprobar que existen en la memoria y cada uno tiene sus propios datos
+        // Comprobar que el objeto existe en la memoria y tiene sus propios datos
         System.out.println("\nResumen del Garaje:");
-        System.out.println("El héroe conduce a " + autoDelHeroe.velocidadMaxima + " km/h.");
-        System.out.println("El villano escapa a " + autoDelVillano.velocidadMaxima + " km/h.");
+        System.out.println("El color de miCoche es " + miCoche.color + ".");
+        System.out.println("Su velocidad es de " + miCoche.velocidad + " km/h.");
         
     }
 }
