@@ -26,7 +26,10 @@ Sugerimos organizar esta lección en el repositorio de la siguiente forma:
 > **(4:00 - 5:15) Código en Acción: Combinando Poderes**
 > Miremos la pantalla. En nuestro entorno online, vamos a crear dos variables: `fuerza` y `magia`. Si queremos calcular el `poderTotal`, simplemente decimos `int poderTotal = fuerza + magia;`. ¡Nuestra aplicación hace el cálculo automáticamente! Luego, podemos imprimir una pregunta: "¿Es mi poder mayor a 100?". Escribimos `System.out.println(poderTotal > 100);`. Si sumamos 60 de fuerza y 50 de magia, nos mostrará `true`.
 >
-> **(5:15 - 6:00) Resumen y Desafío**
+> **(5:15 - 5:40) Antes de Cerrar: Proyecto y Errores Comunes**
+> ¿Qué tal te fue con el reto? Si algo no salió como esperabas, no pasa nada. Es normal equivocarse al principio, y de hecho hay errores muy comunes que veremos seguido: olvidar actualizar una variable, confundir `=` con `==`, usar el tipo de dato equivocado o intentar dividir entre cero. Durante todo el curso vamos a construir un proyecto integrador paso a paso, y las primeras versiones de ese proyecto ya están en los materiales de las dos pr imeras clases que seguramente ya viste. En el video de hoy vamos a explicar cómo implementar la siguiente parte de ese proyecto para que puedas avanzar con más confianza.
+>
+> **(5:40 - 6:00) Resumen y Desafío**
 > En resumen, con los operadores le damos a nuestras variables la capacidad de transformarse y a nuestra aplicación el poder de evaluar situaciones. Tu desafío de hoy es tomar el control de las operaciones. Modifica los códigos para darle superpoderes a tu propio guerrero. ¡Nos vemos en el próximo capítulo para aprender cómo hacer que nuestra aplicación tome sus propias decisiones!
 
 ## 3. Sugerencias Multimedia
