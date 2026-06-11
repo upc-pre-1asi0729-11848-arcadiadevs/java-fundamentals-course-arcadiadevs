@@ -1,4 +1,4 @@
-﻿# Lección 5: El Bucle Infinito (y cómo evitarlo)
+﻿# El Bucle Infinito (y cómo evitarlo)
 
 ## Video de la Clase
 *Enlace al video de YouTube:* [Añadir enlace aquí]
@@ -8,7 +8,7 @@
 - **[Abrir Replit - Bucle infinito](https://replit.com/@your-starter-java)**
 - **[Abrir JDoodle - Bucle infinito](https://jdoodle.com/execute-java-online/your-id)**
 
-## Transcripción / Notas de la Clase
+## Notas de la Clase
 Hola de nuevo, creadores! Hoy aprenderemos a usar los "bucles", que son estructuras que le dicen a la computadora que repita algo por nosotros, a toda velocidad.
 
 **El Bucle "Mientras" ('while') y el bucle "Para" ('for')**
@@ -104,3 +104,5 @@ System.out.println("\n¡Tickets impresos exitosamente!");
 
 - **Oracle Java Tutorial:** [The while and do-while Statements](https://docs.oracle.com/javase/tutorial/java/nutsandbolts/while.html)
 - **Oracle Java Tutorial:** [The for Statement](https://docs.oracle.com/javase/tutorial/java/nutsandbolts/for.html)
+
+\newpage

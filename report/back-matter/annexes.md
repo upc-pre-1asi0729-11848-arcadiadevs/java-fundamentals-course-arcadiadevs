@@ -1,5 +1,3 @@
-﻿# Anexos
+﻿# Anexos {-}
 
-- **Plataforma sugerida sin instalación:** [OnlineGDB](https://www.onlinegdb.com/)
-
----
+- **Plataforma utilizada para el desarrollo del curso:** [OnlineGDB](https://www.onlinegdb.com/)

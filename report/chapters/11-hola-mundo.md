@@ -1,4 +1,4 @@
-# Lección 1: ¡Hola Mundo! Tu Primer Programa
+# ¡Hola Mundo! Tu Primer Programa
 
 ## Video de la Clase
 
@@ -66,3 +66,5 @@ System.out.println("¡Bienvenido al sistema!");
 ![Fragmento de código explicativo](../assets/class-1/ilustracion-fragmento%20de%20codigo.jpg)
 
 ---
+
+\newpage

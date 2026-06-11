@@ -1,5 +1,4 @@
-﻿
-# Lección 3: Operaciones y Superpoderes
+# Operaciones y Superpoderes
 
 ## Video de la Clase
 *Enlace al video de YouTube:* [Añadir enlace aquí]
@@ -11,15 +10,13 @@ Empieza a programar de inmediato (¡Sin instalar nada!):
 
 ![Captura de OnlineGDB con el proyecto precargado](../assets/class-3/onlinegdb.jpg)
 
-## Transcripción / Notas de la Clase
+## Notas de la Clase
 ¡Hola, futuros creadores de software! En nuestra última aventura, aprendimos a guardar información en cajas mágicas llamadas variables. Pero, ¿qué pasa en un videojuego cuando tu personaje encuentra una poción de salud o recibe daño de un monstruo? El valor en esa caja tiene que cambiar. Hoy vamos a darle a nuestra aplicación el superpoder de las matemáticas y la inteligencia lógica.
 
 ![Ilustración de cambio de valores en una caja](../assets/class-3/numeros-cambio.jpg)
 
 **Superpoderes Matemáticos:**
 Java es como una calculadora gigante ultra rápida. Podemos usar las mismas operaciones que haces en la escuela: suma (`+`), resta (`-`), multiplicación (`*` que representamos con un asterisco) y división (`/` que es una barra inclinada). Si tu personaje tiene 100 puntos de vida y recibe una poción de 50 puntos, le decimos a la computadora: `vida = vida + 50`. ¡Así de sencillo! Java resolverá la matemática y guardará el nuevo resultado en la caja de inmediato.
-
-![Ilustración de Operadores Matematicos](../assets/class-3/operadores-matematicos.jpg)
 
 **Inteligencia Lógica y el Detector de Mentiras:**
 Además de las matemáticas, nuestra aplicación puede hacer preguntas. Por ejemplo, ¿tengo más de 10 monedas para comprar esa espada? Aquí usamos operaciones lógicas que actúan como pequeños detectores de mentiras. Comparamos valores usando el símbolo mayor que (`>`), menor que (`<`), o si dos cosas son exactamente iguales usando dos signos de igual (`==`). La computadora siempre responderá con un simple "Verdadero" (`true`) o "Falso" (`false`). A este tipo de respuestas precisas las llamamos "Booleanos".
@@ -80,4 +77,4 @@ System.out.println("¿Requiere permiso de los padres para el club?: " + requiere
 - **Código inicial de la lección:** [starter-files/lesson-03/Main.java](../../starter-files/lesson-03/Main.java)
 - **Código elaborado en clase:** [completed-examples/lesson-03/Main.java](../../completed-examples/lesson-03/Main.java)
 
----
+\newpage

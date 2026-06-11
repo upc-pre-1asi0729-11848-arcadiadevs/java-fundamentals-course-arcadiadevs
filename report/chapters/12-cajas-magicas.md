@@ -1,4 +1,4 @@
-# Lección 2: Cajas Mágicas (Variables y Datos)
+# Cajas Mágicas (Variables y Datos)
 
 ## Video de la Clase
 *Enlace al video de YouTube:* [Añadir enlace aquí]
@@ -10,7 +10,7 @@ Empieza a programar de inmediato (¡Sin instalar nada!):
 
 ![Captura de OnlineGDB con el proyecto precargado](../assets/class-2/onlinegdb-logo.jpg)
 
-## Transcripción / Notas de la Clase
+## Notas de la Clase
 ¡Hola, creadores! Qué genial verlos de nuevo. En nuestra lección pasada, logramos que la computadora nos saludara, pero ¿qué pasa si queremos que recuerde nuestro nombre, nuestra edad o nuestro puntaje favorito en un videojuego? Así como nosotros tenemos una memoria para recordar cosas, debemos enseñarle a nuestra aplicación a guardar información. Aquí entran en juego nuestras protagonistas de hoy: ¡las cajas mágicas de Java!
 
 ![Ilustración de Cajas Mágicas](../assets/class-2/cajas-magicas.jpg)
@@ -76,3 +76,5 @@ System.out.println("Promedio: " + promedioNotas);
 - **Código elaborado en clase:** [completed-examples/lesson-02/Main.java](../../completed-examples/lesson-02/Main.java)
 
 ---
+
+\newpage

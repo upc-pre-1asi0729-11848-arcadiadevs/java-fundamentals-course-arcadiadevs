@@ -1,4 +1,4 @@
-﻿# Lección 4: Decisiones: ¿Qué camino tomar?
+﻿# Decisiones: ¿Qué camino tomar?
 
 ## Video de la Clase
 *Enlace al video de YouTube:* [Añadir enlace aquí]
@@ -10,7 +10,7 @@ Empieza a programar de inmediato (¡Sin instalar nada!):
 
 ![Captura de OnlineGDB con el proyecto precargado](../assets/class-4/onlinegdb.jpg)
 
-## Transcripción / Notas de la Clase
+## Notas de la Clase
 ¡Hola, creadores de tecnología! Hasta ahora, nuestra aplicación sabe recordar cosas e incluso hacer sumas o comparaciones. Pero hay algo que hacemos los humanos todos los días que hace que nuestras vidas sean interesantes: tomar decisiones. Piensa en tu mañana: si está lloviendo, llevas un paraguas; si hace sol, llevas gorra. Hoy, vamos a enseñarle a nuestra aplicación a pensar exactamente igual. ¡Vamos a darle la capacidad de elegir!
 
 ![Ilustración de Elección entre dos rutas](../assets/class-4/eleccion-caminos.jpg)
@@ -76,4 +76,4 @@ if (requierePermiso) {
 - **Código inicial de la lección:** [starter-files/lesson-04/Main.java](../../starter-files/lesson-04/Main.java)
 - **Código elaborado en clase:** [completed-examples/lesson-04/Main.java](../../completed-examples/lesson-04/Main.java)
 
----
+\newpage

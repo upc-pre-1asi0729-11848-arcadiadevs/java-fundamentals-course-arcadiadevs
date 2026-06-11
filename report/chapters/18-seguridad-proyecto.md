@@ -1,7 +1,7 @@
-# Lección 8: Seguridad y Proyecto Final
+# Seguridad y Proyecto Final
 
 ## Video de la Clase
-*Enlace al video de YouTube:* [Añadir enlace aquí]
+*Enlace al video de YouTube:* [https://youtu.be/ZBgI_4ZwoPA](https://youtu.be/ZBgI_4ZwoPA)
 
 ## Entorno de Práctica
 Empieza a programar de inmediato (¡Sin instalar nada!):
@@ -10,7 +10,7 @@ Empieza a programar de inmediato (¡Sin instalar nada!):
 
 ![Captura de OnlineGDB con el proyecto precargado](../assets/class-8/stated-code-onlinegdb.png)
 
-## Transcripción / Notas de la Clase
+## Notas de la Clase
 ¡Hola, grandes creadores! Llegamos a nuestra última aventura. En la lección anterior aprendimos a construir objetos a partir de planos (clases). Nuestro sistema funciona, pero tiene un problema grave de seguridad: cualquiera puede modificar los datos de un objeto desde afuera y ponerle valores imposibles como "-10" o "1000", ¡rompiendo toda nuestra aplicación! Hoy aprenderemos a poner candados a nuestros datos para que nadie haga trampa, y construiremos la versión definitiva de nuestro proyecto.
 
 ![Comparación entre miembros públicos y privados mediante encapsulación](../assets/class-8/encapsulation.png)

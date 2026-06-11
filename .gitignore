@@ -1,4 +1,5 @@
 ﻿/dist
+.mimocode/
 *.pdf
 *.html
 *.docx
