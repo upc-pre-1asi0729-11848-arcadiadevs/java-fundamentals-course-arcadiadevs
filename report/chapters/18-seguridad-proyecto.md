@@ -1,58 +1,43 @@
 # Lección 8: Seguridad y Proyecto Final
 
-## 1. Estructura de Carpetas (GitHub)
+## Video de la Clase
+*Enlace al video de YouTube:* [Añadir enlace aquí]
 
-Sugerimos organizar esta última lección en el repositorio de la siguiente manera:
+## Entorno de Práctica
+Empieza a programar de inmediato (¡Sin instalar nada!):
 
-```text
-/lesson-8
-├── /starter          # El sistema de registro de la lección 7 sin seguridad
-│   └── Main.java
-└── /completed        # El proyecto final: Clases protegidas y uso de Listas (Arrays)
-    ├── Estudiante.java
-    └── Main.java
-```
+- **[Abrir OnlineGDB - Código inicial precargado: https://onlinegdb.com](https://onlinegdb.com)**
 
-## 2. Guion de Video (8 minutos)
+![Captura de OnlineGDB con el proyecto precargado](../assets/class-8/stated-code-onlinegdb.png)
 
-> **(0:00 - 1:30) Introducción: Protegiendo nuestros Objetos**
-> ¡Hola, grandes creadores! Llegamos a nuestra última aventura. En la lección anterior aprendimos a construir objetos a partir de planos. Nuestro sistema funciona, pero tiene un problema grave de seguridad: cualquiera puede modificar el nivel de un héroe desde afuera y ponerle "-10" o "1000", ¡rompiendo toda nuestra aplicación! Hoy aprenderemos a poner candados a nuestros datos para que nadie haga trampa, y construiremos la versión definitiva de nuestro proyecto.
-> 
-> **(1:30 - 3:30) El Diario Íntimo (`private`, `getters` y `setters`)**
-> Imagina que tienes un diario con todos tus secretos. No lo dejas abierto en la mesa de la sala para que cualquiera lo borre o escriba encima. Le pones un candado cerrado y tú eres el único que decide quién lo lee y qué se escribe. En Java logramos esto poniendo la palabra mágica `private` (privado) antes de cada atributo de nuestra clase. Al hacerlo invisible desde afuera, creamos dos puertas de control: los métodos "Getters" (para leer) y "Setters" (para modificar). El "Setter" es como un guardia de seguridad en nuestro diario: podemos programarlo para que si alguien intenta poner un nivel inválido, el guardia diga "¡Acceso denegado!" y no lo guarde.
-> 
-> **(3:30 - 5:30) Manejando Multitudes: Los Hoteles o `Arrays`**
-> Nuestro equipo de héroes está creciendo y ya no podemos guardar un héroe en una variable suelta para cada uno. ¡Sería un caos! Necesitamos construir un edificio. En programación a esto le llamamos "Arreglos" o `Arrays`. Son como un hotel donde reservamos un número exacto de habitaciones seguidas. La única regla extraña que tiene la computadora es que las habitaciones de los hoteles no empiezan a contar en el 1, ¡sino en el número 0! Así, un hotel de 5 habitaciones, va de la 0 a la 4.
-> 
-> **(5:30 - 7:00) Código en Acción: El Proyecto Definitivo**
-> (En pantalla) Vamos a nuestra clase `Héroe` y convertimos sus atributos a `private`. Creamos nuestro método de acceso `getNombre()` para consultar el nombre, y `setNivel(...)` asegurándonos con un "if" de que el nivel sea mayor a cero. Luego, en nuestra clase principal, construimos nuestro equipo: `Héroe[] equipo = new Héroe[3];`. ¡Un arreglo con 3 espacios! Guardamos a nuestros primeros héroes en la habitación 0 `equipo[0]` y en la 1 `equipo[1]`.
-> 
-> **(7:00 - 8:00) Despedida y Graduación**
-> Y así, combinando todas nuestras lecciones, protegemos a nuestro sistema y lo hacemos capaz de manejar a muchos usuarios al mismo tiempo usando Arreglos. Has aprendido qué es el código, a tomar decisiones lógicas, a conversar con tu aplicación e incluso a orientar tu código a la vida real con objetos seguros. Eres oficialmente un creador de tecnología. ¡Felicitaciones por terminar este curso y sigue programando lo imposible!
+## Transcripción / Notas de la Clase
+¡Hola, grandes creadores! Llegamos a nuestra última aventura. En la lección anterior aprendimos a construir objetos a partir de planos (clases). Nuestro sistema funciona, pero tiene un problema grave de seguridad: cualquiera puede modificar los datos de un objeto desde afuera y ponerle valores imposibles como "-10" o "1000", ¡rompiendo toda nuestra aplicación! Hoy aprenderemos a poner candados a nuestros datos para que nadie haga trampa, y construiremos la versión definitiva de nuestro proyecto.
 
-## 3. Código de Ejemplo
+![Comparación entre miembros públicos y privados mediante encapsulación](../assets/class-8/encapsulation.png)
 
-El código incluye los conceptos de encapsulación y la declaración de un arreglo (Array) capaz de guardar varios objetos del mismo tipo. Funciona correctamente en la web, sin necesidad de instalaciones extras.
+**El Diario Íntimo: `private`, Getters y Setters:**
+Imagina que tienes un diario con todos tus secretos. No lo dejas abierto en la mesa de la sala para que cualquiera lo borre o escriba encima: le pones un candado y tú eres el único que decides quién lo lee y qué se escribe. En Java logramos esto poniendo la palabra `private` antes de cada atributo de nuestra clase. Al hacerlo invisible desde afuera, creamos dos puertas de control: los **Getters** (para leer) y los **Setters** (para modificar). El Setter actúa como un guardia de seguridad: podemos programarlo para que, si alguien intenta poner un valor inválido, el guardia diga "¡Acceso denegado!" y simplemente no lo guarde.
 
+![Diario de datos protegido con una salida GET y una entrada SET validada](../assets/class-8/private.png)
+
+**Código en Acción: Encapsulando nuestra clase `Héroe`:**
+Vamos a agregar `private` a nuestra clase y crear sus puertas de acceso. Primero, blindamos los atributos:
 ```java
-// 1. LA CLASE PROTEGIDA (El Molde Seguro)
 class Héroe {
-    // La palabra 'private' prohíbe que alguien cambie esto desde otro archivo
-    private String nombre;
+    private String nombre; // 'private' prohíbe el acceso directo desde afuera
     private int nivel;
-    
-    // Constructor de inicialización
+
     public Héroe(String n, int initNivel) {
         nombre = n;
         nivel = initNivel;
     }
-    
-    // GETTER: El método seguro que solo permite 'Leer' el nombre
+
+    // GETTER: el método seguro que solo permite 'Leer' el nombre
     public String getNombre() {
         return nombre;
     }
-    
-    // SETTER: El método seguro que permite 'Modificar' el nivel pero con reglas
+
+    // SETTER: el método seguro que permite 'Modificar' el nivel, pero con reglas
     public void setNivel(int nuevoNivel) {
         if (nuevoNivel > 0) {
             nivel = nuevoNivel;
@@ -61,44 +46,59 @@ class Héroe {
         }
     }
 }
+```
+Con ese `if` dentro del Setter, la clase se protege sola. Si alguien llama a `setNivel(-10)`, el guardia intercepta el valor y la aplicación nunca llega a corromperse.
 
+**Manejando Multitudes: Los `Arrays`:**
+Nuestro equipo de héroes está creciendo y ya no podemos tener una variable suelta para cada uno: ¡sería un caos! Necesitamos construir un edificio. En programación a esto le llamamos "Arreglos" o `Arrays`. Son como un hotel donde reservamos un número exacto de habitaciones seguidas. La única regla curiosa es que las habitaciones no empiezan a contar desde el 1, ¡sino desde el 0! Un hotel de 5 habitaciones va de la habitación 0 a la habitación 4.
+
+![Arreglo representado como habitaciones numeradas desde 0 hasta 4](../assets/class-8/arrays.png)
+
+**Código en Acción: Construyendo nuestro equipo con Arrays:**
+Declaramos el arreglo indicando el tipo de objeto que guardará y cuántas habitaciones reservar:
+```java
 public class Main {
     public static void main(String[] args) {
-        
-        System.out.println("--- 2. CREANDO UN EQUIPO CON ARRAYS ---");
-        
-        // Creamos un "Hotel de Héroes" o Arreglo con 3 habitaciones disponibles
+
+        System.out.println("--- CREANDO UN EQUIPO CON ARRAYS ---");
+
+        // Creamos un "Hotel de Héroes" con 3 habitaciones disponibles
         Héroe[] equipo = new Héroe[3];
-        
-        // Asignamos héroes a las habitaciones (¡Recuerda, la primera es la número 0!)
+
+        // Asignamos héroes a las habitaciones (¡la primera es la número 0!)
         equipo[0] = new Héroe("Arquera", 5);
         equipo[1] = new Héroe("Mago", 8);
-        
-        // Probamos nuestra seguridad intentando poner un nivel imposible usando nuestro Setter
+
+        // Probamos nuestra seguridad intentando poner un nivel imposible
         System.out.println("Intentando bajar el nivel del Mago a -10...");
-        equipo[1].setNivel(-10); // Entrará el guardia de seguridad y mostrará el ERROR
-        
-        // Extraemos su nombre protegido mediante el Getter
+        equipo[1].setNivel(-10); // El guardia intercepta el valor y muestra el ERROR
+
+        // Leemos el nombre protegido de forma segura mediante el Getter
         System.out.println("El miembro en la primera posición es: " + equipo[0].getNombre());
     }
 }
 ```
 
-## 4. Actividad Práctica: "Pausa para la práctica"
+**Resumen y Cierre:**
+Combinando `private` con Getters, Setters y Arrays, nuestro sistema ahora está blindado y puede manejar a muchos usuarios al mismo tiempo. Has aprendido qué es el código, a tomar decisiones lógicas, a conversar con tu aplicación e incluso a orientarla a la vida real con objetos seguros. ¡Eres oficialmente un creador de tecnología. Felicitaciones por terminar este curso y sigue programando lo imposible!
+
+## Actividad Práctica:
 
 **El Reto de la Caja Fuerte:**
 El banco confió en tu aplicación para proteger las cuentas de la ciudad.
 
-1. Crea una clase `CuentaBancaria` y ponle un atributo protegido: `private double saldo;`.
+1. Crea una clase `CuentaBancaria` con un atributo protegido: `private double saldo;`.
 2. Crea su constructor para darle un saldo inicial.
-3. Escribe un método "Setter" llamado `public void depositar(double dineroNuevo)`.
-4. El truco: Dentro de ese método, usa un bloque `if`. Si `dineroNuevo` es mayor a 0, súmalo al saldo. Si no, imprime un mensaje de "Operación Inválida". (No queremos que las personas depositen dinero fantasma negativo).
+3. Escribe un método Setter llamado `public void depositar(double dineroNuevo)`.
+4. **El truco:** dentro de ese método, usa un `if`. Si `dineroNuevo` es mayor a 0, súmalo al saldo. Si no, imprime un mensaje de `"Operación Inválida"`. ¡No queremos que nadie deposite dinero fantasma negativo!
 
-## 5. Proyecto Integrador: El Registro de Estudiantes (Final)
+*Tip:* La suma al saldo dentro del `if` sería algo como: `saldo = saldo + dineroNuevo;`
 
-¡Es el gran momento de coronar tu aplicación! Consolidemos todo: objetos, seguridad y arreglos. Nuestro código ahora maneja una lista de los estudiantes que ingresan a nuestro Club.
+## Proyecto Integrador: El Registro de Estudiantes (Final)
 
-**El código maestro para nuestro Club Escolar Segurizado:**
+¡Es el gran momento de coronar tu aplicación! Consolidemos todo lo aprendido en el curso: objetos, seguridad y arreglos. Nuestro código ahora maneja una lista real de los estudiantes que ingresan a nuestro Club.
+
+**Agrega la clase `Estudiante` protegida y reemplaza el `main` con este código final:**
 ```java
 import java.util.Scanner;
 
@@ -110,8 +110,8 @@ class Estudiante {
         this.nombre = nombreInicial;
         this.edad = edadInicial;
     }
-    
-    // Método Getter para consultar información protegiendo la original
+
+    // Getter que expone solo un resumen, nunca los atributos directamente
     public String getResumen() {
         return "Miembro: " + nombre + " | Edad: " + edad + " años.";
     }
@@ -120,44 +120,44 @@ class Estudiante {
 public class Main {
     public static void main(String[] args) {
         Scanner teclado = new Scanner(System.in);
-        
-        // Nuestro nuevo Array: capaz de alojar hasta 5 estudiantes en la memoria
+
+        // Nuestro Array: capaz de alojar hasta 5 estudiantes en la memoria
         Estudiante[] clubEscolar = new Estudiante[5];
-        
+
         System.out.println("--- Sistema Final de Registro del Club Escolar ---");
-        
-        // Utilizaremos un bucle For para registrar automáticamente a los 2 primeros (habitaciones 0 y 1)
+
+        // Bucle For para registrar automáticamente los 2 primeros estudiantes
         for (int i = 0; i < 2; i++) {
             System.out.println("\nIngresando registro #" + (i + 1));
-            
+
             System.out.println("Digite nombre:");
             String nom = teclado.nextLine();
-            
+
             System.out.println("Digite edad:");
             int ed = teclado.nextInt();
             teclado.nextLine(); // Limpiar el "Enter" flotante del escáner
-            
-            // Creamos un nuevo objeto Estudiante y lo guardamos directamente en la habitación 'i' del arreglo
+
+            // Creamos el objeto y lo guardamos directamente en la habitación 'i' del arreglo
             clubEscolar[i] = new Estudiante(nom, ed);
         }
-        
-        System.out.println("\n--- REPORTE FINAL DE MIEMBROS SECRETO ---");
-        // Solo llamamos al método seguro que expone el resumen, no directamente a su información
+
+        System.out.println("\n--- REPORTE FINAL DE MIEMBROS ---");
+        // Usamos getResumen() para leer la info de forma segura, nunca directamente
         System.out.println(clubEscolar[0].getResumen());
         System.out.println(clubEscolar[1].getResumen());
-        
+
         System.out.println("\n¡Felicidades! Sistema implementado exitosamente.");
     }
 }
 ```
 
-## 6. Referencias y Bibliografía
+## Recursos Complementarios del Proyecto
 
+![Ejemplo de código usando un getter y un setter](../assets/class-8/setter-getter.png)
+
+- **Código inicial de la lección:** [lesson-8/starter/Main.java](../../lesson-8/starter/Main.java)
+- **Código elaborado en clase:** [lesson-8/completed/Estudiante.java](../../lesson-8/completed/Estudiante.java)
 - **Oracle Java Tutorial:** [Controlling Access to Members of a Class](https://docs.oracle.com/javase/tutorial/java/javaOO/accesscontrol.html)
 - **Oracle Java Tutorial:** [Arrays](https://docs.oracle.com/javase/tutorial/java/nutsandbolts/arrays.html)
 
-## 7. Sugerencias Multimedia
-
-- **Animación del Candado (Minuto 1:30):** Cuando se explique la palabra `private`, animar una bóveda o diario cerrándose con un gran candado virtual en la pantalla. Frente a la bóveda surgen dos puertas "GET" (una bandeja que solo entrega información) y "SET" (una ranura donde un guardia con lupa revisa el valor de la moneda antes de dejarla caer adentro).
-- **El Hotel de Arreglos (Minuto 4:00):** Para explicar los ídices del Arreglo (`Array`), utilizar un pasillo de hotel visto de techo. Sobre la puerta de cada habitación se dibuja con marcador y brocha los números 0, 1, 2, 3 en adelante. Deslizar figuritas adentro de cada cuarto representando nuestros objetos recién ensamblados de `Estudiante`.
-- **Efecto de Confeti (Minuto 7:30):** En la despedida animar fuegos artificiales digitales en código ASCII o confeti sobre el editor de código, finalizando con una insignia de "Diploma de Creador Java" en la pantalla.
+---
