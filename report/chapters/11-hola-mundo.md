@@ -65,6 +65,4 @@ System.out.println("¡Bienvenido al sistema!");
 
 ![Fragmento de código explicativo](../assets/class-1/ilustracion-fragmento%20de%20codigo.jpg)
 
----
-
 \newpage

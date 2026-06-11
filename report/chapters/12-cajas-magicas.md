@@ -75,6 +75,4 @@ System.out.println("Promedio: " + promedioNotas);
 - **Código inicial de la lección:** [starter-files/lesson-02/Main.java](../../starter-files/lesson-02/Main.java)
 - **Código elaborado en clase:** [completed-examples/lesson-02/Main.java](../../completed-examples/lesson-02/Main.java)
 
----
-
 \newpage

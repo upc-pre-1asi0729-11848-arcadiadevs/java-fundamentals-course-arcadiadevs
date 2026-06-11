@@ -1,3 +1,3 @@
 ﻿# Anexos {-}
 
-- **Plataforma utilizada para el desarrollo del curso:** [OnlineGDB](https://www.onlinegdb.com/)
+- **Plataforma utilizada para el desarrollo del curso:** [www.onlinegdb.com](https://www.onlinegdb.com/)
