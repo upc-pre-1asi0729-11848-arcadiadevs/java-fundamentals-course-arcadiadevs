@@ -14,7 +14,7 @@ Empieza a programar de inmediato (¡Sin instalar nada!):
 
 *La captura muestra el entorno listo para ejecutar el primer programa sin instalar nada.*
 
-## Transcripción / Notas de la Clase
+## Notas de la Clase
 
 ¡Hola a todos! Bienvenidos a "Java para Creadores". Hoy daremos el primer paso para convertirnos en creadores de tecnología. Aprenderemos a hablar el idioma de las computadoras usando Java.
 
