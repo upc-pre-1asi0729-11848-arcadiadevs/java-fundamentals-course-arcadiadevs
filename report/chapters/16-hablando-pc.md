@@ -84,6 +84,6 @@ if (permisoPadres) {
 
 ## Recursos Complementarios de la Clase
 
-![Fragmento de código explicativo](../assets/class-6/ilustracion-fragmento-de-codigo.jpg)
+- **Código inicial de la lección:** [starter-files/lesson-03/Main.java](../../starter-files/lesson-06/Main.java)
+- **Código elaborado en clase:** [completed-examples/lesson-03/Main.java](../../completed-examples/lesson-06/Main.java)
 
-- **Código inicial de la lección:** [starter-files/lesson-03/Main.java](../../starter-files/lesson-03/Main.java)
