@@ -1,18 +1,16 @@
-﻿# Lección 6: Hablando con la Computadora
+﻿# Hablando con la Computadora
 
-## Video de la Clase
+## Video de la Clase y Entorno de Práctica
 
 *Enlace al video de YouTube:* [Añadir enlace aquí]
 
-## Entorno de Práctica
+Para esta clase continuaremos usando OnlineGDB, un entorno de programación en línea que funciona directamente desde el navegador. No necesitas instalar nada en tu computadora. Solo haz clic en el siguiente enlace y verás el código inicial de la clase ya listo para ejecutar: [https://onlinegdb.com/3gcDgp4lY](https://onlinegdb.com/3gcDgp4lY)
 
-Empieza a programar de inmediato (¡Sin instalar nada!):
-
-- **[Abrir OnlineGDB - Código inicial precargado: https://onlinegdb.com](https://onlinegdb.com)**
+Una vez que abras el enlace, verás una interfaz dividida en dos paneles: a la izquierda está el editor de código donde escribiremos nuestras instrucciones, y a la derecha aparecerá la consola donde la computadora nos mostrará los resultados. Para ejecutar el programa, simplemente presiona el botón verde de "Run" en la parte superior.
 
 ![Captura de OnlineGDB con el proyecto precargado](../assets/class-6/image.png)
 
-## Transcripción / Notas de la Clase
+## Notas de la Clase
 
 ¡Hola, equipo creador! Hasta ahora, nuestra aplicación solo nos habla a nosotros. Escribe saludos, nos cuenta historias y nos da resultados matemáticos, pero es un monólogo. Para que un videojuego o programa sea realmente divertido, necesitamos que la computadora nos escuche. Hoy vamos a enseñarle a nuestra aplicación a prestar atención a nuestro teclado y responder en consecuencia.
 
@@ -25,55 +23,10 @@ Imagina a un reportero en la calle con un micrófono, esperando a que alguien ha
 ![Imagen de un reportero](../assets/class-6/reportero.jpg)
 
 **Guardando lo que Escuchamos:**
-Cuando el reportero escucha algo y tú presionas la tecla "Enter", no podemos simplemente dejar que esas palabras se las lleve el viento. Tenemos que guardarlas en las cajas mágicas (variables) que ya conocemos. Si el usuario escribe su nombre, lo atrapamos en una caja de tipo `String` usando una instrucción llamada `nextLine()`. Si escribe su edad, la atrapamos en un `int` usando `nextInt()`. ¡Así nuestra aplicación aprenderá y recordará quiénes somos!
+Cuando el reportero escucha algo y tú presionas la tecla "Enter", no podemos simplemente dejar que esas palabras se las lleve el viento. Tenemos que guardarlas en las cajas mágicas (variables) que ya conocemos. Si el usuario escribe su nombre, lo atrapamos en una caja de tipo `String` usando una instrucción llamada `nextLine()`. Si escribe su edad, la atrapamos en un `int` usando `nextInt()`.
+¡Así nuestra aplicación aprenderá y recordará quiénes somos!
 
-**Código en Acción: La Entrevista**
-Primero escribimos arriba, afuera de todo: `import java.util.Scanner;`. Luego, encendemos el micrófono. Miren cómo la consola se queda parpadeando, esperando. ¡Está esperando que yo escriba! Le digo a mi computadora que mi color favorito es el azul. Presiono Enter. ¡Guau! La aplicación acaba de responder "El azul es un color genial". ¡Ya estamos conversando!
 
-```java
-// 1. Importamos la biblioteca que contiene la herramienta Scanner (el "reportero")
-import java.util.Scanner;
-
-public class Main {
-    
-    public static void main(String[] args) {
-        
-        System.out.println("--- 2. Iniciando el Sistema de Conversación ---");
-        
-        // 3. Encender el micrófono: Creamos un Scanner que escuche el teclado (System.in)
-        Scanner reportero = new Scanner(System.in);
-        
-        // 4. Hacer una pregunta al usuario
-        System.out.println("¡Hola! Soy tu asistente virtual. ¿Cómo te llamas?");
-        
-        // La aplicación se pausa aquí y espera a que el usuario escriba texto (nextLine)
-        String nombreUsuario = reportero.nextLine();
-        
-        // Responder amistosamente usando el dato guardado
-        System.out.println("¡Es un gusto conocerte, " + nombreUsuario + "!");
-        
-        // 5. Preguntar algo numérico
-        System.out.println("¿Cuántos años tienes?");
-        
-        // Atrapamos el número usando nextInt() en una caja entera
-        int edad = reportero.nextInt();
-        
-        System.out.println("Increíble. Yo tengo apenas 5 milisegundos de haber sido creado.");
-        
-        // 6. Usar lógica (if) sobre lo que nos respondió
-        if (edad >= 18) {
-            System.out.println("¡Ya eres mayor de edad! Puedes ver las funciones completas.");
-        } else {
-            System.out.println("Disfruta tu juventud. Te mostraré los juegos más divertidos.");
-        }
-        
-    }
-}
-
-```
-
-**Resumen y Desafío:**
-Resumiendo: Para hablar con la computadora, importamos el `Scanner`, lo encendimos y guardamos lo que escribe el usuario usando `nextLine()` o `nextInt()`. ¡Ahora es tu turno! Transforma tu aplicación en un adivino interactivo. Te espero en la próxima lección donde empezaremos a construir nuestros propios planos y objetos del mundo real.
 
 ## Actividad Práctica:
 
@@ -100,7 +53,7 @@ Tu asistente debe preparar tu desayuno, pero necesita saber tus preferencias pri
 
 ¡Al fin nuestro **Registro del Club Escolar** será interactivo! Las variables ya no las escribiremos nosotros en el código con valores fijos; ahora la secretaria del club las tecleará cuando un estudiante se acerque a inscribirse.
 
-**Modifica la versión anterior de nuestro sistema por esta interactiva:**
+**Agrega al código de nuestro sistema de registro:**
 
 ```java
 // Arriba del todo "import java.util.Scanner;"
@@ -129,8 +82,8 @@ if (permisoPadres) {
 
 ```
 
-## Recursos Complementarios del Proyecto
+## Recursos Complementarios de la Clase
 
-![Fragmento de código explicativo](../assets/class-6/ilustracion-fragmento-de-codigo.jpg)
+- **Código inicial de la lección:** [starter-files/lesson-03/Main.java](../../starter-files/lesson-06/Main.java)
+- **Código elaborado en clase:** [completed-examples/lesson-03/Main.java](../../completed-examples/lesson-06/Main.java)
 
-- **Código inicial de la lección:** [starter-files/lesson-03/Main.java](../../starter-files/lesson-03/Main.java)
