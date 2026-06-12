@@ -1,3 +1,22 @@
+// --- 1. NUESTRO MOLDE (La Clase o el Plano) ---
+class Auto {
+
+    // Atributos (Las características que tendrá cada auto creado)
+    String color;
+    int velocidad;
+
+    // El Constructor (El manual de ensamblaje que se lanza al fabricar un auto)
+    public Auto(String colorRecibido, int velocidadRecibida) {
+
+        // Guardamos los datos de fábrica en los atributos del auto
+        color = colorRecibido;
+        velocidad = velocidadRecibida;
+
+        System.out.println("¡Un auto " + color + " ha sido ensamblado en la fábrica!");
+
+    }
+}
+
 public class Main {
 
     public static void main(String[] args) {
