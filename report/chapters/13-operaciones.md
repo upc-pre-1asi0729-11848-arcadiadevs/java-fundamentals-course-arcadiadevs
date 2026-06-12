@@ -1,19 +1,19 @@
 # Operaciones y Superpoderes
 
-## Video de la Clase
+## Video de la Clase y Entorno de Práctica
+
 *Enlace al video de YouTube:* [Añadir enlace aquí]
 
-## Entorno de Práctica
-Empieza a programar de inmediato (¡Sin instalar nada!):
+Para esta clase continuaremos usando **OnlineGDB**, un entorno de programación en línea que funciona directamente desde el navegador. No necesitas instalar nada en tu computadora. Solo haz clic en el siguiente enlace y verás el código inicial de la clase ya listo para ejecutar: [**https://onlinegdb.com/E5iM0EisJ**](https://onlinegdb.com/E5iM0EisJ)
 
-- **[Abrir OnlineGDB - Código inicial precargado: https://onlinegdb.com/E5iM0EisJ](https://onlinegdb.com/E5iM0EisJ)**
+Una vez que abras el enlace, verás una interfaz dividida en dos paneles: a la izquierda está el editor de código donde escribiremos nuestras instrucciones, y a la derecha aparecerá la consola donde la computadora nos mostrará los resultados. Para ejecutar el programa, simplemente presiona el botón verde de "Run" en la parte superior.
 
-![Captura de OnlineGDB con el proyecto precargado](../assets/class-3/onlinegdb.jpg)
+![Captura de OnlineGDB con el proyecto precargado](../assets/class-3/onlinegdb.jpg){width=80%}
 
 ## Notas de la Clase
 ¡Hola, futuros creadores de software! En nuestra última aventura, aprendimos a guardar información en cajas mágicas llamadas variables. Pero, ¿qué pasa en un videojuego cuando tu personaje encuentra una poción de salud o recibe daño de un monstruo? El valor en esa caja tiene que cambiar. Hoy vamos a darle a nuestra aplicación el superpoder de las matemáticas y la inteligencia lógica.
 
-![Ilustración de cambio de valores en una caja](../assets/class-3/numeros-cambio.jpg)
+![Ilustración de cambio de valores en una caja](../assets/class-3/numeros-cambio.jpg){width=50%}
 
 **Superpoderes Matemáticos:**
 Java es como una calculadora gigante ultra rápida. Podemos usar las mismas operaciones que haces en la escuela: suma (`+`), resta (`-`), multiplicación (`*` que representamos con un asterisco) y división (`/` que es una barra inclinada). Si tu personaje tiene 100 puntos de vida y recibe una poción de 50 puntos, le decimos a la computadora: `vida = vida + 50`. ¡Así de sencillo! Java resolverá la matemática y guardará el nuevo resultado en la caja de inmediato.
@@ -21,7 +21,7 @@ Java es como una calculadora gigante ultra rápida. Podemos usar las mismas oper
 **Inteligencia Lógica y el Detector de Mentiras:**
 Además de las matemáticas, nuestra aplicación puede hacer preguntas. Por ejemplo, ¿tengo más de 10 monedas para comprar esa espada? Aquí usamos operaciones lógicas que actúan como pequeños detectores de mentiras. Comparamos valores usando el símbolo mayor que (`>`), menor que (`<`), o si dos cosas son exactamente iguales usando dos signos de igual (`==`). La computadora siempre responderá con un simple "Verdadero" (`true`) o "Falso" (`false`). A este tipo de respuestas precisas las llamamos "Booleanos".
 
-![Ilustración de Operadores lógicos en base al ejemplo](../assets/class-3/operadores-logicos.jpg)
+![Ilustración de Operadores lógicos en base al ejemplo](../assets/class-3/operadores-logicos.jpg){width=50%}
 
 **Código en Acción: Combinando Poderes**
 Miremos la pantalla. En nuestro entorno online, vamos a crear dos variables: `fuerza` y `magia`. Si queremos calcular el `poderTotal`, simplemente decimos:
@@ -34,18 +34,10 @@ System.out.println(poderTotal > 100);
 ```
 Si sumamos 60 de fuerza y 50 de magia, nos mostrará `true`.
 
-**Resumen y Desafío:**
-En resumen, con los operadores le damos a nuestras variables la capacidad de transformarse y a nuestra aplicación el poder de evaluar situaciones. Tu desafío de hoy es tomar el control de las operaciones. Modifica los códigos para darle superpoderes a tu propio guerrero. ¡Nos vemos en el próximo capítulo para aprender cómo hacer que nuestra aplicación tome sus propias decisiones!
-
 ## Actividad Práctica:
 
 **El Reto de la Tienda de Hechizos:**
-Tu héroe entró a una tienda para comprar suministros mágicos, ¡pero la computadora de la tienda falló! Usa la tuya para ayudarle.
-
-1. Tienes `150` monedas de oro. Crea una variable con esto.
-2. Quieres comprar una _Capa de Invisibilidad_ y su precio es `200` monedas.
-3. Escribe el código necesario para calcular cuánto oro te falta para poder comprarla. (Pista: usa el operador `-`).
-4. Haz que la aplicación imprima el resultado: `"Me faltan [resultado] monedas de oro."`.
+Tu héroe entró a una tienda para comprar suministros mágicos, ¡pero la computadora de la tienda falló! Usa la tuya para calcular cuánto oro le falta y ayudarle a completar su compra.
 
 ## Proyecto Integrador: El Registro de Estudiantes
 
@@ -70,11 +62,9 @@ System.out.println("Edad calculada del estudiante: " + edadCalculada + " años."
 System.out.println("¿Requiere permiso de los padres para el club?: " + requierePermiso);
 ```
 
-## Recursos Complementarios del Proyecto
+## Recursos Complementarios de la Clase
 
-![Fragmento de código explicativo](../assets/class-3/ilustracion-fragmento-de-codigo.jpg)
-
-- **Código inicial de la lección:** [starter-files/lesson-03/Main.java](../../starter-files/lesson-03/Main.java)
-- **Código elaborado en clase:** [completed-examples/lesson-03/Main.java](../../completed-examples/lesson-03/Main.java)
+- **Código inicial de la lección:** [starter-files/lesson-03/Main.java](https://github.com/upc-pre-1asi0729-11848-arcadiadevs/java-fundamentals-course-arcadiadevs/blob/main/starter-files/lesson-03/Main.java)
+- **Código elaborado en clase:** [completed-examples/lesson-03/Main.java](https://github.com/upc-pre-1asi0729-11848-arcadiadevs/java-fundamentals-course-arcadiadevs/blob/main/completed-examples/lesson-03/Main.java)
 
 \newpage

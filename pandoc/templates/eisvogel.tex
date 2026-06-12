@@ -122,6 +122,7 @@ $-- section numbering
 $--
 $if(numbersections)$
 \setcounter{secnumdepth}{$if(secnumdepth)$$secnumdepth$$else$5$endif$}
+\renewcommand\sectionformat{}
 $else$
 \setcounter{secnumdepth}{-\maxdimen} % remove section numbering
 $endif$
@@ -794,7 +795,7 @@ $endif$
   backgroundcolor  = \color{listing-background},
   basicstyle       = \color{listing-text-color}\linespread{1.0}%
                       \lst@ifdisplaystyle%
-                      $if(code-block-font-size)$$code-block-font-size$$else$\small$endif$%
+                      $if(code-block-font-size)$$code-block-font-size$$else$\scriptsize$endif$%
                       \fi\ttfamily{},
   breaklines       = true,
   frame            = single,
