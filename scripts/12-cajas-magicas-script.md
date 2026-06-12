@@ -1,39 +1,45 @@
-# Lección 2: Cajas Mágicas (Instructor)
+# LecciÃ³n 2: Cajas MÃ¡gicas (Instructor)
 
 ## 1. Estructura de Carpetas (GitHub)
 
-Sugerimos organizar esta lección en el repositorio de la siguiente manera:
+Sugerimos organizar esta lecciÃ³n en el repositorio de la siguiente manera:
 
-`	ext
+```text
 /starter-files/lesson-02        # Archivo base con la estructura de la clase y el main
-+-- Main.java
-/completed-examples/lesson-02   # El código completo con las variables creadas
-+-- Main.java
-`
+               â””â”€â”€ Main.java
+/completed-examples/lesson-02   # El cÃ³digo completo con las variables creadas
+                    â””â”€â”€ Main.java
+```
 
-## 2. Guion de Video (7 minutos)
+## 2. Guion de Video (6.5 minutos)
 
-> **(0:00 - 1:30) Introducción: Recordando las Cosas**
-> ¡Hola, creadores! Qué genial verlos de nuevo. En nuestra lección pasada, logramos que la computadora nos saludara, pero ¿qué pasa si queremos que recuerde nuestro nombre, nuestra edad o nuestro puntaje favorito en un videojuego? Así como nosotros tenemos una memoria para recordar cosas que importan, debemos enseñarle a nuestra aplicación a guardar información. Aquí entran en juego nuestras protagonistas de hoy: ¡las cajas mágicas de Java!
+> **(0:00 - 0:45) IntroducciÃ³n: Recordando las Cosas**
+> Â¡Hola, creadores! QuÃ© alegrÃ­a verlos de nuevo. En nuestra clase previa logramos que la computadora nos saludara. Pero, Â¿y si queremos que recuerde nuestro nombre, nuestra edad o nuestro puntaje en un juego? AsÃ­ como nosotros tenemos memoria para recordar cosas importantes, tenemos que enseÃ±arle a nuestra app a guardar datos. En cualquier aplicaciÃ³n que uses, desde tu perfil en redes hasta tu inventario en un juego, la informaciÃ³n siempre estÃ¡ cambiando. Â¡Y para guardar esto, usamos nuestras protagonistas de hoy: las cajas mÃ¡gicas de Java!
 >
-> **(1:30 - 3:00) ¿Qué es una Variable? (La Analogía de las Cajas)**
-> Imagina que estás ordenando tu cuarto. Para que no haya un desastre, usas cajas de cartón. A una le pones una etiqueta que dice "Zapatos", a otra "Videojuegos", y guardas las cosas correctas dentro. En programación, a estas cajas con etiquetas les llamamos **variables**. Tienen un nombre (la etiqueta) y guardan un dato en su interior. Lo curioso de Java es que es muy estricto: te obliga a decirle exactamente qué tipo de caja vas a usar, para que no guardes líquidos en una caja de zapatos de cartón.
+> **(0:45 - 1:30) Â¿QuÃ© es una Variable? (La AnalogÃ­a de las Cajas)**
+> Imagina que estÃ¡s ordenando tu cuarto. Para no hacer un desorden, usas distintas cajas de cartÃ³n. A una le pones una etiqueta de "Zapatos", a otra "Juguetes", y guardas lo correcto en cada una. En programaciÃ³n, a estas cajas con etiquetas les llamamos **variables**. Tienen un nombre (la etiqueta) y guardan un dato adentro, el cual puede cambiar o "variar". Lo genial de Java es que es sÃºper ordenado: siempre te pide que le digas de quÃ© tipo serÃ¡ la caja para no hacer ninguna mezcla rara. AsÃ­, evitas guardar lÃ­quidos en una caja de zapatos.
 >
-> **(3:00 - 4:30) Tipos de Cajas: Texto, Enteros y Decimales**
-> Vamos a conocer hoy tres tipos de cajas principales:
+> **(1:30 - 2:30) Tipos de Cajas: Texto, Enteros y Decimales**
+> Hoy vamos a conocer tres tipos de cajas, las mÃ¡s usadas en todos los programas:
+> 1. Primero, la caja de texto. En Java la llamamos `String`. Imagina que es como un collar o un hilo donde vas uniendo letras para armar palabras o frases enteras. El texto adentro siempre debe ir entre comillas dobles (`""`).
+> 2. Luego, tenemos las cajas para nÃºmeros completos. Se llaman `int` (por entero). AquÃ­ guardamos edades, cantidades exactas o los corazones de vida de tu personaje. Â¡Estos nÃºmeros van sin comillas!
+> 3. Por Ãºltimo, las cajas para nÃºmeros con decimales, llamadas `double`. Las usamos cuando necesitamos mucha exactitud, como para guardar tu altura (por ejemplo, 1.75) o tu dinero. Recuerda: en programaciÃ³n usamos el punto (`.`) en vez de la coma para los decimales.
 >
-> 1. Primero, la caja de texto. A esta le llamamos String. Imagina que es un cordón donde enhebras letras para formar palabras o frases enteras. Siempre ponemos el texto dentro de comillas dobles "".
-> 2. Luego, tenemos las cajas para números enteros. Se llaman int. Aquí guardamos edades, cantidades exactas o vidas que le quedan a un personaje. No lleva comillas.
-> 3. Finalmente, tenemos las cajas para números decimales: double. Se usa cuando las fracciones son importantes, como cuando medimos la altura en metros (por ejemplo, 1.75). Aquí usamos puntos en lugar de comas decimales.
+> **(2:30 - 3:10) Preparando nuestra Ã¡rea de trabajo**
+> Como siempre, abajo del video tienes el enlace a GDB Online con el cÃ³digo listo. Ãbrelo, cambia tu pantalla a "modo claro" usando la tuerquita de arriba a la derecha, para que la lectura sea mÃ¡s fÃ¡cil. Y algo sÃºper importante: haz clic en el botÃ³n que dice "Fork this" arriba a la izquierda. Â¡Esto te crea una copia propia para que puedas editar y jugar con tu cÃ³digo!
 >
-> **(4:30 - 6:00) Código en Acción: Creando Nuestras Primeras Cajas**
-> ¡Vamos a la aplicación! Observa la pantalla: para crear nuestra caja primero decimos de qué tipo es, luego su etiqueta y qué le ponemos adentro. Por ejemplo, String nombreMagico = "Merlín";. Luego, podemos imprimir el contenido de nuestra caja usando el mismo System.out.println, pero esta vez colocamos el nombre de la caja, sin comillas: System.out.println(nombreMagico);.
+> **(3:10 - 4:00) CÃ³digo en AcciÃ³n: Creando Nuestras Primeras Cajas**
+> Â¡A programar! Mira mi pantalla: para crear nuestra primera caja, primero le decimos quÃ© tipo es, despuÃ©s la etiqueta, y al final le ponemos algo adentro. Escribiremos: `String nombreMagico = "MerlÃ­n";`. Â¡Listo! Acabamos de crear la memoria de nuestro personaje. Ahora, para ver quÃ© hay en la caja, usamos nuestra instrucciÃ³n de siempre, `System.out.println`, pero ponemos el nombre de la caja Â¡sin comillas!: `System.out.println(nombreMagico);`. Si le pones comillas, solo va a imprimir la palabra literal "nombreMagico" y no lo que realmente estÃ¡ guardado.
 >
-> **(6:00 - 7:00) Resumen y Desafío Práctico**
-> Resumiendo: las variables son cajas con información adentro. Elegimos el tipo según lo que vamos a guardar. ¡Ahora te toca a ti! Sigue las instrucciones y crea tus propias variables, experimenta y diviértete construyendo la memoria de tu aplicación.
+> **(4:00 - 5:20) Actividad PrÃ¡ctica (Tu turno de jugar)**
+> Â¡Te toca jugar! Tu reto ahora es crear dos cajas nuevas: una de tipo `int` para guardar tu edad, y una de tipo `String` para tu comida favorita. DespuÃ©s, usa `System.out.println` para mostrar en pantalla lo que guardaste. Vamos a poner nuestro cronÃ³metro de 30 segundos; pausa el video si necesitas mÃ¡s tiempo. Â¡Adelante, sin miedo a romper nada!
+> *(En el video aparece un cronÃ³metro visual de 30 segundos con mÃºsica de fondo estimulante)*
+>
+> **(5:20 - 6:30) Cierre, Errores Comunes y DesafÃ­o**
+> Â¿CÃ³mo te fue? Â¿La computadora recordÃ³ tus datos? Si te saliÃ³ un error rojo, Â¡no pasa nada, asÃ­ es como aprendemos! A veces olvidamos que a Java le importan mucho las mayÃºsculas; la palabra `String` siempre debe empezar con 'S' mayÃºscula. Otro error de principiante es escribir mal el nombre de la caja; debe quedar igualito a como lo creaste. Y claro, nunca olvides cerrar la lÃ­nea con punto y coma (`;`). Â¡Hiciste un trabajo increÃ­ble hoy! En la prÃ³xima lecciÃ³n haremos que Java resuelva matemÃ¡ticas por nosotros. Â¡Nos vemos!
 
 ## 3. Sugerencias Multimedia
 
-- **Animaciones Conceptuales (Minuto 1:30):** Mostrar tres cajas animadas en pantalla. Una con etiqueta azul "texto" de donde sale una cinta con letras, otra caja gris "entero" donde caen bloques de números, y una transparente "decimal" para fracciones.
-- **Anotaciones de Sintaxis (Minuto 4:30):** Un rótulo visual que señale el signo + en el código con el texto "Sirve para pegar" (concatenar).
-- **Iconografía en Pantalla:** Al final, mostrar íconos de Texto (String), Número Entero (int) y Número Decimal (double) como resumen.
+- **Animaciones Conceptuales (Minuto 0:45):** Mostrar tres cajas animadas en pantalla. Una con etiqueta azul "texto" de donde sale una cinta con letras, otra caja gris "entero" donde caen bloques de nÃºmeros, y una transparente "decimal" para fracciones.
+- **Anotaciones de Sintaxis (Minuto 3:10):** Un rÃ³tulo visual que seÃ±ale el signo + en el cÃ³digo con el texto "Sirve para pegar" (concatenar).
+- **IconografÃ­a en Pantalla:** Al final, mostrar Ã­conos de Texto (String), NÃºmero Entero (int) y NÃºmero Decimal (double) como resumen.

@@ -17,8 +17,8 @@ Ver mas detalles en la sección de requisitos.
 La entrega se realiza hasta 24 horas después del inicio del horario programado regular de la sesión síncrona de la semana 12 (en caso de dos sesiones síncronas semanales, se considera la segunda sesión síncrona). 
 
 ### Nomenclatura de Archivos
-Documento de Plan de curso: Seguir la estructura de nombre upc-pre-202610-1asi0729-<NRC>-<startup>-course-plan(.pdf) 
-Documento de Informe de Participación: Seguir la estructura de nombre upc-pre-202610-1asi029-<NRC>-<startup>-course-plan-performance> (.docx y .pdf)
+Documento de Plan de curso: Seguir la estructura de nombre upc-pre-202610-1asi0729-11848-ArcadiaDevs-course-plan(.pdf) 
+Documento de Informe de Participación: Seguir la estructura de nombre upc-pre-202610-1asi029-11848-ArcadiaDevs-course-plan-performance> (.docx y .pdf)
 
 ### Recomendaciones generales
 Revisar con detenimiento los documentos Social Responsibility Assignment Statement (este documento), así como las rúbricas. 

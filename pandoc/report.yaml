@@ -1,13 +1,20 @@
 metadata:
-  title: "Curso de Fundamentos de Java"
+  title: "Plan de Curso: Java para Creadores"
+  subtitle: "Fundamentos de Java para Principiantes"
   author:
     - "Equipo ArcadiaDevs"
-  date: "2026-1"
+  institution: "Universidad Peruana de Ciencias Aplicadas"
+  department: "Carrera de Ingeniería de Software"
+  date: "Junio, 2026"
   lang: es-ES
+  toc-title: "Tabla de Contenidos"
+  titlepage: false
+  mainfont: "Inter"
+  sansfont: "Inter"
+  monofont: "Source Code Pro"
 from: markdown
 standalone: true
-toc: true
-toc-depth: 2
+toc: false
 number-sections: true
 citeproc: true
 template: pandoc/templates/eisvogel.tex
@@ -16,4 +23,4 @@ pdf-engine: xelatex
 resource-path:
   - .
   - report
-  - assets
+  - report/assets

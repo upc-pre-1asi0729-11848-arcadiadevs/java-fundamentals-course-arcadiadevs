@@ -1,37 +1,34 @@
 ﻿# Lección 6: Hablando con la Computadora
 
-## 1. Estructura de Carpetas (GitHub)
+## Video de la Clase
 
-Sugerimos organizar esta lección en el repositorio de la siguiente manera:
+*Enlace al video de YouTube:* [Añadir enlace aquí]
 
-```text
-/lesson-6
-├── /starter          # Código base pidiendo datos sin herramientas de lectura
-│   └── Main.java
-└── /completed        # El código completo usando Scanner para interactuar
-    └── Main.java
-```
+## Entorno de Práctica
 
-## 2. Guion de Video (8 minutos)
+Empieza a programar de inmediato (¡Sin instalar nada!):
 
-> **(0:00 - 1:30) Introducción: De Monólogo a Diálogo**
-> ¡Hola, equipo creador! Hasta ahora, nuestra aplicación solo nos habla a nosotros. Escribe saludos, nos cuenta historias y nos da resultados matemáticos, pero es un monólogo. Para que un videojuego o programa sea realmente divertido, necesitamos que la computadora nos escuche. Hoy vamos a enseñarle a nuestra aplicación a prestar atención a nuestro teclado y responder en consecuencia.
-> 
-> **(1:30 - 3:30) El Micrófono de la Computadora (`Scanner`)**
-> Imagina a un reportero en la calle con un micrófono, esperando a que alguien hable. En Java, ese reportero tiene un nombre especial: se llama `Scanner`. Es una herramienta (o clase) que viene incluida en una caja de herramientas gigante que nos regala Java, llamada biblioteca estándar. Así que lo primero que debemos hacer es "pedir prestado" el micrófono usando la palabra mágica `import`. Luego, creamos nuestro propio reportero en nuestro código y le decimos que esté atento al teclado (`System.in`).
-> 
-> **(3:30 - 5:30) Guardando lo que Escuchamos**
-> Cuando el reportero escucha algo y tú presionas la tecla "Enter", no podemos simplemente dejar que esas palabras se las lleve el viento. Tenemos que guardarlas en las cajas mágicas (variables) que ya conocemos. Si el usuario escribe su nombre, lo atrapamos en una caja de tipo `String` usando una instrucción llamada `nextLine()`. Si escribe su edad, la atrapamos en un `int` usando `nextInt()`. ¡Así nuestra aplicación aprenderá y recordará quiénes somos!
-> 
-> **(5:30 - 7:00) Código en Acción: La Entrevista**
-> (En pantalla) Primero escribimos arriba, afuera de todo: `import java.util.Scanner;`. Luego, encendemos el micrófono. Miren cómo la consola se queda parpadeando, esperando. ¡Está esperando que yo escriba! Le digo a mi computadora que mi color favorito es el azul. Presiono Enter. ¡Guau! La aplicación acaba de responder "El azul es un color genial". ¡Ya estamos conversando!
-> 
-> **(7:00 - 8:00) Resumen y Desafío Práctico**
-> Resumiendo: Para hablar con la computadora, importamos el `Scanner`, lo encendimos y guardamos lo que escribe el usuario usando `nextLine()` o `nextInt()`. ¡Ahora es tu turno! Transforma tu aplicación en un adivino interactivo. Te espero en la próxima lección donde empezaremos a construir nuestros propios planos y objetos del mundo real.
+- **[Abrir OnlineGDB - Código inicial precargado: https://onlinegdb.com](https://onlinegdb.com)**
 
-## 3. Código de Ejemplo
+![Captura de OnlineGDB con el proyecto precargado](../assets/class-6/image.png)
 
-El siguiente bloque muestra cómo solicitar y leer datos ingresados por el usuario. Es fundamental ejecutarlo en la consola interactiva de Replit o JDoodle.
+## Transcripción / Notas de la Clase
+
+¡Hola, equipo creador! Hasta ahora, nuestra aplicación solo nos habla a nosotros. Escribe saludos, nos cuenta historias y nos da resultados matemáticos, pero es un monólogo. Para que un videojuego o programa sea realmente divertido, necesitamos que la computadora nos escuche. Hoy vamos a enseñarle a nuestra aplicación a prestar atención a nuestro teclado y responder en consecuencia.
+
+![Imagen de un reportero](../assets/class-6/computadora-hablando.jpg)
+
+
+**El Micrófono de la Computadora (`Scanner`):**
+Imagina a un reportero en la calle con un micrófono, esperando a que alguien hable. En Java, ese reportero tiene un nombre especial: se llama `Scanner`. Es una herramienta (o clase) que viene incluida en una caja de herramientas gigante que nos regala Java, llamada biblioteca estándar. Así que lo primero que debemos hacer es "pedir prestado" el micrófono usando la palabra mágica `import`. Luego, creamos nuestro propio reportero en nuestro código y le decimos que esté atento al teclado (`System.in`).
+
+![Imagen de un reportero](../assets/class-6/reportero.jpg)
+
+**Guardando lo que Escuchamos:**
+Cuando el reportero escucha algo y tú presionas la tecla "Enter", no podemos simplemente dejar que esas palabras se las lleve el viento. Tenemos que guardarlas en las cajas mágicas (variables) que ya conocemos. Si el usuario escribe su nombre, lo atrapamos en una caja de tipo `String` usando una instrucción llamada `nextLine()`. Si escribe su edad, la atrapamos en un `int` usando `nextInt()`. ¡Así nuestra aplicación aprenderá y recordará quiénes somos!
+
+**Código en Acción: La Entrevista**
+Primero escribimos arriba, afuera de todo: `import java.util.Scanner;`. Luego, encendemos el micrófono. Miren cómo la consola se queda parpadeando, esperando. ¡Está esperando que yo escriba! Le digo a mi computadora que mi color favorito es el azul. Presiono Enter. ¡Guau! La aplicación acaba de responder "El azul es un color genial". ¡Ya estamos conversando!
 
 ```java
 // 1. Importamos la biblioteca que contiene la herramienta Scanner (el "reportero")
@@ -72,24 +69,39 @@ public class Main {
         
     }
 }
+
 ```
 
-## 4. Actividad Práctica: "Pausa para la práctica"
+**Resumen y Desafío:**
+Resumiendo: Para hablar con la computadora, importamos el `Scanner`, lo encendimos y guardamos lo que escribe el usuario usando `nextLine()` o `nextInt()`. ¡Ahora es tu turno! Transforma tu aplicación en un adivino interactivo. Te espero en la próxima lección donde empezaremos a construir nuestros propios planos y objetos del mundo real.
+
+## Actividad Práctica:
 
 **El Reto del Asistente Personal:**
 Tu asistente debe preparar tu desayuno, pero necesita saber tus preferencias primero.
 
 1. Importa y crea el `Scanner`.
+
+
 2. Pregunta usando un `System.out.println` qué tipo de desayuno prefiere el usuario (ej. "¿Huevos o Cereal?").
+
+
 3. Crea un `String desayuno = ...` y usa tu escáner con `nextLine()` para guardar su respuesta.
+
+
 4. Imprime finalmente `"¡Marchando una orden de " + desayuno + " para ti!"`.
+
+
 5. (Opcional): Agrégale una pregunta más sobre a qué hora (`int`) le gustaría desayunar y captúrala con `nextInt()`.
 
-## 5. Proyecto Integrador: El Registro de Estudiantes
+
+
+## Proyecto Integrador: El Registro de Estudiantes
 
 ¡Al fin nuestro **Registro del Club Escolar** será interactivo! Las variables ya no las escribiremos nosotros en el código con valores fijos; ahora la secretaria del club las tecleará cuando un estudiante se acerque a inscribirse.
 
 **Modifica la versión anterior de nuestro sistema por esta interactiva:**
+
 ```java
 // Arriba del todo "import java.util.Scanner;"
 
@@ -114,14 +126,11 @@ if (permisoPadres) {
 } else {
     System.out.println("ESTADO: Membresía 100% activa.");
 }
+
 ```
 
-## 6. Referencias y Bibliografía
+## Recursos Complementarios del Proyecto
 
-- **Oracle Java Tutorial:** [Scanning (Reading Input)](https://docs.oracle.com/javase/tutorial/essential/io/scanning.html)
+![Fragmento de código explicativo](../assets/class-6/ilustracion-fragmento-de-codigo.jpg)
 
-## 7. Sugerencias Multimedia
-
-- **Iconografía (Minuto 1:30):** Cuando se explique el `Scanner`, colocar un gráfico dibujado a mano de un reporte con gabardina amarilla y un micrófono gigante que se acerca al usuario que está mirando la pantalla.
-- **Efecto de Cursor (Minuto 3:30):** Destacar un recuadro negro que muestre una "terminal" o consola. Mostrar un bloque de texto blanco que parpadea lentamente `_`, demostrando que el programa no está roto, sino que se ha "pausado" esperando a que el usuario presione la tecla Intro (Enter).
-- **Subtítulos con analogía:** Sobre imprimir `"import java.util.Scanner;"` con una caja de herramientas gigante llamada `java.util`, de la cual una pinza saca un destornillador llamado `Scanner`.
+- **Código inicial de la lección:** [starter-files/lesson-03/Main.java](../../starter-files/lesson-03/Main.java)

@@ -1,5 +1,8 @@
 ﻿/dist
+.mimocode/
 *.pdf
 *.html
 *.docx
 .DS_Store
+
+build/
