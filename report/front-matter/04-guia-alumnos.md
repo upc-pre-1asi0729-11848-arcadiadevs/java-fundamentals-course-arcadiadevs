@@ -16,7 +16,7 @@ Este curso de 1 hora introduce a estudiantes de secundaria a los fundamentos de 
 
 | Lección | Título | Duración | Temas Clave |
 |---------|--------|----------|-------------|
-| 1 | ¡Hola Mundo! Tu Primer Programa | 4:30 min | ¿Qué es Java?, Configuración online |
+| 1 | ¡Hola Mundo! Tu Primer Programa | 5:40 min | ¿Qué es Java?, Configuración online |
 | 2 | Cajas Mágicas (Variables y Datos) | 4:30 min | `int`, `String`, `double` |
 | 3 | Operaciones y Superpoderes | 7:53 min | Operadores aritméticos y lógicos |
 | 4 | Decisiones: ¿Qué camino tomar? | 8:27 min | Estructuras `if-else` |
