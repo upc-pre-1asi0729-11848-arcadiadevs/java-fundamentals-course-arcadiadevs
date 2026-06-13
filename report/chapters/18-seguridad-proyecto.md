@@ -4,7 +4,7 @@
 
 *Enlace al video de YouTube:* [https://youtu.be/ZBgI_4ZwoPA](https://youtu.be/ZBgI_4ZwoPA)
 
-Para esta clase continuaremos usando **OnlineGDB**, el mismo entorno en línea que usamos en las clases anteriores. No necesitas instalar nada en tu computadora. Haz clic en el siguiente enlace para abrir el código inicial de la clase ya precargado: [**https://onlinegdb.com**](https://onlinegdb.com)
+Para esta clase continuaremos usando **OnlineGDB**, el mismo entorno en línea que usamos en las clases anteriores. No necesitas instalar nada en tu computadora. Haz clic en el siguiente enlace para abrir el código inicial de la clase ya precargado: [**https://onlinegdb.com/bKfRzLfjx**](https://onlinegdb.com/bKfRzLfjx)
 
 Una vez que abras el enlace, verás la interfaz con el editor de código a la izquierda y la consola a la derecha. Recuerda que para ejecutar el programa debes presionar el botón verde de "Run" en la parte superior de la pantalla.
 

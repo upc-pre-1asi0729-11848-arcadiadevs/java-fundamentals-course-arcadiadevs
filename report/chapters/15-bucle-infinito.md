@@ -1,13 +1,14 @@
-﻿# El Bucle Infinito (y cómo evitarlo)
+# El Bucle Infinito (y cómo evitarlo)
 
 ## Video de la Clase y Entorno de Práctica
 
-*Enlace al video de YouTube:* [Añadir enlace aquí]
+*Enlace al video de YouTube:* [**https://youtu.be/oGUC9LY47PU**](https://youtu.be/oGUC9LY47PU)
 
-Para esta clase puedes usar **Replit** o **JDoodle**, dos entornos de programación en línea que funcionan directamente desde el navegador. No necesitas instalar nada en tu computadora. Haz clic en uno de los siguientes enlaces para abrir el código inicial de la clase ya precargado:
+Para esta clase continuaremos usando **OnlineGDB**, el entorno de desarrollo en línea que funciona directamente desde el navegador. No necesitas instalar nada en tu computadora. Haz clic en el siguiente enlace para abrir el código inicial de la clase ya precargado: [**https://onlinegdb.com/Jv99DRncv**](https://onlinegdb.com/Jv99DRncv) 
 
-- **[Abrir Replit - Bucle infinito](https://replit.com/@your-starter-java)**
-- **[Abrir JDoodle - Bucle infinito](https://jdoodle.com/execute-java-online/your-id)**
+Al igual que en las clases anteriores, verás la interfaz con el editor de código a la izquierda y la consola a la derecha. Recuerda que para ejecutar el programa debes presionar el botón verde de "Run" en la parte superior de la pantalla.
+
+![Captura de OnlineGDB con el proyecto precargado](../assets/class-5/gdb-clase-5-precargado.png){width=80%}
 
 ## Notas de la Clase
 
@@ -15,9 +16,15 @@ Hola de nuevo, creadores! Hoy aprenderemos a usar los "bucles", que son estructu
 
 **El Bucle "Mientras" (`while`) y el bucle "Para" (`for`)**
 
+![Bucle infinito - Error que congela](../assets/class-5/persona-frustrada-laptop-loading.png){width=80%}
+
 Los bucles nos permiten repetir tareas automáticamente sin escribir el mismo código una y otra vez. En Java tenemos dos tipos principales de bucles:
 
-- **Bucle `while`:** Funciona bajo una condición. Imagina que comes palomitas: "Mientras haya palomitas en el tazón, toma una y cómetela". La computadora repetirá el código mientras la condición sea Verdadera. Nota crítica: Si olvidas programar la instrucción que "vacía el tazón" (reducir la variable), el programa caerá en un bucle infinito y se congelará. Por eso es fundamental siempre tener una forma de que el bucle termine.
+- **Bucle `while`:** Funciona bajo una condición. Imagina que comes palomitas: "Mientras haya palomitas en el tazón, toma una y cómetela".
+
+![Analogía del bucle while - Palomitas](../assets/class-5/analogia-del-while.png){width=60%}
+
+La computadora repetirá el código mientras la condición sea Verdadera. Nota crítica: Si olvidas programar la instrucción que "vacía el tazón" (reducir la variable), el programa caerá en un bucle infinito y se congelará. Por eso es fundamental siempre tener una forma de que el bucle termine.
 
 - **Bucle `for`:** Es perfecto cuando sabes el número exacto de repeticiones (como dar 3 vueltas a una pista de atletismo). En una sola línea, crea un contador automático, establece el límite de vueltas y aumenta el conteo en cada giro, haciéndolo mucho más seguro y ordenado.
 
@@ -68,6 +75,8 @@ public class Main {
 Observa en el código anterior cómo cada tipo de bucle tiene su propia ventaja. El `while` es ideal cuando no sabes cuántas repeticiones necesitas, solo que debes continuar mientras se cumpla una condición. El `for`, por otro lado, es más seguro porque define exactamente cuántas veces se repetirá desde el inicio. En el bucle `while`, la variable `energia` disminuye en cada vuelta hasta llegar a 0, momento en el que la condición se vuelve falsa y el bucle termina. En el bucle `for`, el contador `i` comienza en 1 y aumenta automáticamente hasta llegar a 5.
 
 ## Actividad Práctica de la Clase: 
+
+![Cuenta regresiva del cohete](../assets/class-5/cuenta-regresiva-cohete.png){width=70%}
 
 **El Reto del Lanzamiento Espacial:**
 

@@ -2,7 +2,7 @@
 
 ## Video de la Clase y Entorno de Práctica
 
-*Enlace al video de YouTube:* [Añadir enlace aquí]
+*Enlace al video de YouTube:* [**https://youtu.be/bn6O6CUm-W8**](https://youtu.be/bn6O6CUm-W8)
 
 Para esta clase continuaremos usando **OnlineGDB**, un entorno de programación en línea que funciona directamente desde el navegador. No necesitas instalar nada en tu computadora. Solo haz clic en el siguiente enlace y verás el código inicial de la clase ya listo para ejecutar: [**https://onlinegdb.com/E5iM0EisJ**](https://onlinegdb.com/E5iM0EisJ)
 
