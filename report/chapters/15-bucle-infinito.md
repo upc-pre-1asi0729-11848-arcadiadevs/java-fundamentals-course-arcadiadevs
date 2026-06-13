@@ -21,62 +21,12 @@ Hola de nuevo, creadores! Hoy aprenderemos a usar los "bucles", que son estructu
 Los bucles nos permiten repetir tareas automáticamente sin escribir el mismo código una y otra vez. En Java tenemos dos tipos principales de bucles:
 
 - **Bucle `while`:** Funciona bajo una condición. Imagina que comes palomitas: "Mientras haya palomitas en el tazón, toma una y cómetela".
-
 ![Analogía del bucle while - Palomitas](../assets/lesson-05/analogia-del-while.png){width=60%}
-
 La computadora repetirá el código mientras la condición sea Verdadera. Nota crítica: Si olvidas programar la instrucción que "vacía el tazón" (reducir la variable), el programa caerá en un bucle infinito y se congelará. Por eso es fundamental siempre tener una forma de que el bucle termine.
 
 - **Bucle `for`:** Es perfecto cuando sabes el número exacto de repeticiones (como dar 3 vueltas a una pista de atletismo). En una sola línea, crea un contador automático, establece el límite de vueltas y aumenta el conteo en cada giro, haciéndolo mucho más seguro y ordenado.
 
-## Código Elaborado en Clase
-
-El siguiente bloque enseña la estructura de ambos bucles funcionales en las plataformas web sin bloqueos de memoria:
-
-```java
-public class Main {
-    
-    public static void main(String[] args) {
-        
-        System.out.println("--- 1. Bucle While: Entrenamiento de Energía ---");
-        
-        int energia = 3;
-        
-        // "Mientras (while) la energía sea mayor que 0..."
-        while (energia > 0) {
-            
-            System.out.println("¡Golpe con la espada! (Energía restante: " + energia + ")");
-            
-            // CRÍTICO: Reducir la energía para evitar un Bucle Infinito
-            // Podemos usar energia = energia - 1; o el atajo energia--;
-            energia--;
-            
-        }
-        System.out.println("El héroe está agotado y debe descansar.");
-        
-        
-        System.out.println("\n--- 2. Bucle For: Cuenta de Flexiones ---");
-        
-        // El bucle for agrupa 3 partes en sus paréntesis: 
-        // 1. Contador inicial (int i = 1)
-        // 2. Condición para detenerse (i <= 5)
-        // 3. Cómo avanza (i++ que suma de uno en uno)
-        
-        for (int i = 1; i <= 5; i++) {
-            
-            System.out.println("Realizando flexión número " + i);
-            
-        }
-        System.out.println("¡Entrenamiento de flexiones completado!");
-        
-    }
-}
-```
-
-Observa en el código anterior cómo cada tipo de bucle tiene su propia ventaja. El `while` es ideal cuando no sabes cuántas repeticiones necesitas, solo que debes continuar mientras se cumpla una condición. El `for`, por otro lado, es más seguro porque define exactamente cuántas veces se repetirá desde el inicio. En el bucle `while`, la variable `energia` disminuye en cada vuelta hasta llegar a 0, momento en el que la condición se vuelve falsa y el bucle termina. En el bucle `for`, el contador `i` comienza en 1 y aumenta automáticamente hasta llegar a 5.
-
 ## Actividad Práctica de la Clase: 
-
-![Cuenta regresiva del cohete](../assets/lesson-05/cuenta-regresiva-cohete.png){width=70%}
 
 **El Reto del Lanzamiento Espacial:**
 
