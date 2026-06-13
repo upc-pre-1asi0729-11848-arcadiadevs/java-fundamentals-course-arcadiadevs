@@ -15,6 +15,11 @@ metadata:
   listings: true
   listings-disable-line-numbers: true
   listings-no-page-break: true
+  colorlinks: true
+  linkcolor: customlinkcolor
+  urlcolor: customlinkcolor
+  filecolor: customlinkcolor
+  citecolor: customlinkcolor
 from: markdown
 standalone: true
 toc: false
