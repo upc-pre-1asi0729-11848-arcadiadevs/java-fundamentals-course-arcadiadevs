@@ -8,19 +8,19 @@ Para esta clase continuaremos usando **OnlineGDB**, el mismo entorno en línea q
 
 Una vez que abras el enlace, verás la interfaz con el editor de código a la izquierda y la consola a la derecha. Recuerda que para ejecutar el programa debes presionar el botón verde de "Run" en la parte superior de la pantalla.
 
-![Captura de OnlineGDB con el proyecto precargado](../assets/class-8/stated-code-onlinegdb.png)
+![Captura de OnlineGDB con el proyecto precargado](../assets/lesson-08/stated-code-onlinegdb.png)
 
 ## Notas de la Clase
 
 ¡Hola, grandes creadores! Llegamos a nuestra última aventura. En la lección anterior aprendimos a construir objetos a partir de planos (clases). Nuestro sistema funciona, pero tiene un problema grave de seguridad: cualquiera puede modificar los datos de un objeto desde afuera y ponerle valores imposibles como "-10" o "1000", ¡rompiendo toda nuestra aplicación! Hoy aprenderemos a poner candados a nuestros datos para que nadie haga trampa, y construiremos la versión definitiva de nuestro proyecto.
 
-![Comparación entre miembros públicos y privados mediante encapsulación](../assets/class-8/encapsulation.png){width=60%}
+![Comparación entre miembros públicos y privados mediante encapsulación](../assets/lesson-08/encapsulation.png){width=60%}
 
 **El Diario Íntimo: `private`, Getters y Setters:**
 
 Imagina que tienes un diario con todos tus secretos. No lo dejas abierto en la mesa de la sala para que cualquiera lo borre o escriba encima: le pones un candado y tú eres el único que decides quién lo lee y qué se escribe. En Java logramos esto poniendo la palabra `private` antes de cada atributo de nuestra clase. Al hacerlo invisible desde afuera, creamos dos puertas de control: los **Getters** (para leer) y los **Setters** (para modificar). El Setter actúa como un guardia de seguridad: podemos programarlo para que, si alguien intenta poner un valor inválido, el guardia diga "¡Acceso denegado!" y simplemente no lo guarde.
 
-![Diario de datos protegido con una salida GET y una entrada SET validada](../assets/class-8/private.png){width=50%}
+![Diario de datos protegido con una salida GET y una entrada SET validada](../assets/lesson-08/private.png){width=50%}
 
 **Código en Acción: Encapsulando nuestra clase `Héroe`:**
 
@@ -58,7 +58,7 @@ Con ese `if` dentro del Setter, la clase se protege sola. Si alguien llama a `se
 
 Nuestro equipo de héroes está creciendo y ya no podemos tener una variable suelta para cada uno: ¡sería un caos! Necesitamos construir un edificio. En programación a esto le llamamos "Arreglos" o `Arrays`. Son como un hotel donde reservamos un número exacto de habitaciones seguidas. La única regla curiosa es que las habitaciones no empiezan a contar desde el 1, ¡sino desde el 0! Un hotel de 5 habitaciones va de la habitación 0 a la habitación 4.
 
-![Arreglo representado como habitaciones numeradas desde 0 hasta 4](../assets/class-8/arrays.png){width=50%}
+![Arreglo representado como habitaciones numeradas desde 0 hasta 4](../assets/lesson-08/arrays.png){width=50%}
 
 **Código en Acción: Construyendo nuestro equipo con Arrays:**
 
@@ -161,7 +161,7 @@ Este código representa la culminación de todo el curso. La clase `Estudiante` 
 
 ## Recursos Complementarios de la Clase
 
-![Ejemplo de código usando un getter y un setter](../assets/class-8/setter-getter.png){width=80%}
+![Ejemplo de código usando un getter y un setter](../assets/lesson-08/setter-getter.png){width=80%}
 
 - **Código inicial de la lección:** [starter-files/lesson-08/Main.java](https://github.com/upc-pre-1asi0729-11848-arcadiadevs/java-fundamentals-course-arcadiadevs/blob/main/starter-files/lesson-08/Main.java)
 - **Código elaborado en clase:** [completed-examples/lesson-08/Estudiante.java](https://github.com/upc-pre-1asi0729-11848-arcadiadevs/java-fundamentals-course-arcadiadevs/blob/main/completed-examples/lesson-08/Estudiante.java)

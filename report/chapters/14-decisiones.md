@@ -1,4 +1,4 @@
-﻿# Decisiones: ¿Qué camino tomar?
+# Decisiones: ¿Qué camino tomar?
 
 ## Video de la Clase y Entorno de Práctica
 
@@ -6,17 +6,17 @@
 
 Para esta clase continuaremos usando **OnlineGDB**, el mismo entorno en línea que usamos la clase pasada. No necesitas instalar nada en tu computadora. Haz clic en el siguiente enlace para abrir el código inicial de la clase ya precargado: **[https://onlinegdb.com/SGfcIy9Wp](https://onlinegdb.com/SGfcIy9Wp)**
 
-![Captura de OnlineGDB con el proyecto precargado](../assets/class-4/onlinegdb.jpg){width=80%}
+![Captura de OnlineGDB con el proyecto precargado](../assets/lesson-04/gdb-clase-4-precargado.png){width=80%}
 
 ## Notas de la Clase
 ¡Hola, creadores de tecnología! Hasta ahora, nuestra aplicación sabe recordar cosas e incluso hacer sumas o comparaciones. Pero hay algo que hacemos los humanos todos los días que hace que nuestras vidas sean interesantes: tomar decisiones. Piensa en tu mañana: si está lloviendo, llevas un paraguas; si hace sol, llevas gorra. Hoy, vamos a enseñarle a nuestra aplicación a pensar exactamente igual. ¡Vamos a darle la capacidad de elegir!
 
-![Ilustración de Elección entre dos rutas](../assets/class-4/eleccion-caminos.jpg){width=40%}
+![Ilustración de Elección entre dos rutas](../assets/lesson-04/eleccion-caminos.jpg){width=40%}
 
 **La Analogía del Guardia de Seguridad (`if-else`):**
 Imagina una montaña rusa increíble. En la entrada hay un guardia de seguridad con una regla de medir. La instrucción es clara: "Si mides más de 1.40 metros, puedes subir. Si no, debes buscar otra atracción". En Java, a esta instrucción la llamamos `if` (que en inglés significa "si" condicional) y `else` (que sería nuestro "si no"). Funciona como un camino en forma de "Y". La aplicación llega, se hace una pregunta (nuestro detector de mentiras Verdadero/Falso de la clase pasada) y toma un camino u otro. ¡Nunca los dos a la vez!
 
-![Ilustración de If-else](../assets/class-4/if-else.jpg){width=50%}
+![Ilustración de If-else](../assets/lesson-04/if-else.jpg){width=50%}
 
 **Código en Acción: Programando al Guardia:**
 Viajemos a nuestra plataforma online. Abriremos nuestras llaves mágicas que encierran las acciones de cada camino. Vamos a escribir:

@@ -8,7 +8,7 @@ Para esta clase continuaremos usando **OnlineGDB**, el entorno de desarrollo en 
 
 Al igual que en las clases anteriores, verás la interfaz con el editor de código a la izquierda y la consola a la derecha. Recuerda que para ejecutar el programa debes presionar el botón verde de "Run" en la parte superior de la pantalla.
 
-![Captura de OnlineGDB con el proyecto precargado](../assets/class-7/gdb-clase-7-precargado.png){width=80%}
+![Captura de OnlineGDB con el proyecto precargado](../assets/lesson-07/gdb-clase-7-precargado.png){width=80%}
 
 ## Notas de la Clase
 
@@ -19,7 +19,7 @@ Piensa en cuando horneas galletas. Usas un molde de metal con forma de estrella.
 
 Cuando usamos ese molde en la masa y la horneamos, obtenemos una galleta real que sí podemos comer y decorar. A esa galleta terminada le llamamos `Objeto`. A partir de un solo molde o Clase, ¡podemos crear cien galletas u Objetos diferentes!
 
-![Analogía del Molde de Galletas](../assets/class-7/molde-galletas.png){width=60%}
+![Analogía del Molde de Galletas](../assets/lesson-07/molde-galletas.png){width=60%}
 
 
 **Partes del Molde: Atributos y Constructores**
@@ -30,7 +30,7 @@ Fuera de nuestra puerta principal (`main`), vamos a crear un nuevo recetario lla
 
 Ahora lo más emocionante: volvamos a nuestro bloque `main`. Para crear el objeto real usaremos la palabra mágica `new` (que significa "nuevo" y manda a fabricar el objeto). Escribiremos: `Auto miCoche = new Auto("Rojo", 150);`. ¡Acabamos de materializar un auto dentro de la memoria de la computadora!
 
-![Instanciación de un objeto de la clase Auto](../assets/class-7/auto-instanciacion.png){width=60%}
+![Instanciación de un objeto de la clase Auto](../assets/lesson-07/auto-instanciacion.png){width=60%}
 
 
 **Resumen**
@@ -88,7 +88,7 @@ La panadería del abuelo se está modernizando y necesita un molde digital para 
 
 Transformemos el Club Escolar para que deje de usar variables sueltas y comience a pensar en términos de POO. Crearemos el plano maestro para cualquier `Estudiante` nuevo.
 
-![Representación de la clase Estudiante y sus objetos](../assets/class-7/registro-estudiantes.png){width=60%}
+![Representación de la clase Estudiante y sus objetos](../assets/lesson-07/registro-estudiantes.png){width=60%}
 
 **Modifica la estructura de nuestro registro:**
 

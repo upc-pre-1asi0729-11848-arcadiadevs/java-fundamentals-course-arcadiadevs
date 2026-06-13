@@ -8,7 +8,7 @@ Para esta primera clase y en todo el curso no necesitas instalar ningún program
 
 Una vez que abras el enlace, verás una interfaz dividida en dos paneles: a la izquierda está el editor de código donde escribiremos nuestras instrucciones, y a la derecha aparecerá la consola donde la computadora nos mostrará los resultados. Para ejecutar el programa, simplemente presiona el botón verde de "Run" en la parte superior.
 
-![Captura de OnlineGDB con el proyecto precargado](../assets/class-1/gdb-clase-1-precargado.png){width=80%}
+![Captura de OnlineGDB con el proyecto precargado](../assets/lesson-01/gdb-clase-1-precargado.png){width=80%}
 
 ## Notas de la Clase
 
@@ -16,7 +16,7 @@ Una vez que abras el enlace, verás una interfaz dividida en dos paneles: a la i
 
 Java fue creado en 1995 por James Gosling en Sun Microsystems (hoy parte de Oracle). Su lema siempre ha sido *"Write Once, Run Anywhere"* (Escribe una vez, ejecuta en todas partes), lo que significa que un programa escrito en Java puede funcionar en cualquier dispositivo sin necesidad de reescribirlo. Esto lo hace ideal para aplicaciones móviles, sistemas empresariales, videojuegos y mucho más.
 
-![Logo de Java](../assets/class-1/java-logo.jpeg){width=50%}
+![Logo de Java](../assets/lesson-01/java-logo.jpeg){width=50%}
 
 **¿Qué es el código?**
 
@@ -26,7 +26,7 @@ La computadora funciona de manera similar. Es una máquina increíblemente rápi
 
 La diferencia principal es que, mientras una receta de cocina puede usar palabras como "un poco de sal" o "a fuego medio", la computadora necesita cantidades exactas y temperaturas precisas. No hay lugar para la ambigüedad en el código.
 
-![Ilustración del chef](../assets/class-1/ilustracion-chef.png){width=60%}
+![Ilustración del chef](../assets/lesson-01/ilustracion-chef.png){width=60%}
 
 **Nuestro Primer Programa**
 
@@ -56,7 +56,7 @@ Analicemos cada parte de este código:
 
 Cuando ejecutes este programa, verás aparecer "¡Hola Mundo!" en la consola de la derecha. ¡Felicidades! Acaban de escribir su primer programa en Java.
 
-![Ilustración Hello World](../assets/class-1/ilustracion-hello-world.png){width=80%}
+![Ilustración Hello World](../assets/lesson-01/ilustracion-hello-world.png){width=80%}
 
 ## Actividad Práctica de la Clase: 
 
