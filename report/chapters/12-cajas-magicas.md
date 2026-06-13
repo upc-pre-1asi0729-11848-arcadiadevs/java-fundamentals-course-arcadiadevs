@@ -2,13 +2,13 @@
 
 ## Video de la Clase y Entorno de Práctica
 
-*Enlace al video de YouTube:* [Añadir enlace aquí]
+*Enlace al video de YouTube:* [**https://youtu.be/p_KOy6f-76Q**](https://youtu.be/p_KOy6f-76Q)
 
 Para esta clase continuaremos usando **OnlineGDB**, el mismo entorno en línea que usamos la clase pasada. No necesitas instalar nada en tu computadora. Haz clic en el siguiente enlace para abrir el código inicial de la clase ya precargado: [**https://onlinegdb.com/O6b5gyEv2**](https://onlinegdb.com/O6b5gyEv2)
 
 Al igual que en la clase anterior, verás la interfaz con el editor de código a la izquierda y la consola a la derecha. Recuerda que para ejecutar el programa debes presionar el botón verde de "Run" en la parte superior de la pantalla.
 
-![Captura de OnlineGDB con el proyecto precargado](../assets/class-2/gdb-clase-2-precargado.png){width=80%}
+![Captura de OnlineGDB con el proyecto precargado](../assets/lesson-02/gdb-clase-2-precargado.png){width=80%}
 
 ## Notas de la Clase
 
@@ -18,7 +18,7 @@ Así como nosotros tenemos una memoria para recordar cosas, debemos enseñarle a
 
 Aquí entran en juego nuestras protagonistas de hoy: ¡las cajas mágicas de Java! Estas cajas nos permiten almacenar datos que podemos usar y modificar a lo largo de nuestro programa.
 
-![Ilustración de Cajas Mágicas](../assets/class-2/cajas-magicas.jpg){width=50%}
+![Ilustración de Cajas Mágicas](../assets/lesson-02/cajas-magicas.jpg){width=50%}
 
 **¿Qué es una Variable?**
 
@@ -32,7 +32,7 @@ En programación, a estas cajas con etiquetas les llamamos **variables**. Una va
 
 Java te obliga a decirle exactamente qué tipo de caja vas a usar. Esto es importante porque no puedes guardar un elefante en una caja de zapatos, y no puedes guardar un número entero en una caja de texto. Cada tipo de dato tiene su propio lugar.
 
-![Ilustración de Cajas Normales](../assets/class-2/cajas-ilustracion.jpg){width=50%}
+![Ilustración de Cajas Normales](../assets/lesson-02/cajas-ilustracion.jpg){width=50%}
 
 **Tipos de Cajas (Tipos de Datos):**
 
@@ -44,7 +44,7 @@ En Java existen varios tipos de datos, pero hoy nos enfocaremos en los tres más
 
 ¿Por qué es importante usar el tipo correcto? Porque si intentas guardar texto en una variable numérica, la computadora no sabrá qué hacer y recibiremos un error. Es como intentar guardar agua en una caja de zapatos: simplemente no funciona.
 
-![Tipos de Variables](../assets/class-2/tipos-de-variables.png){width=80%}
+![Tipos de Variables](../assets/lesson-02/tipos-de-variables.png){width=80%}
 
 **Cómo crear variables:**
 
