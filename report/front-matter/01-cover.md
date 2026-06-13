@@ -20,7 +20,7 @@ nocite: '[@*]'
 
 \vspace{1.0cm}
 
-{\LARGE \textbf{1ASI0729 - DESARROLLO DE APLICACIONES OPEN SOURCE}\par}
+{\Large \textbf{1ASI0729 - DESARROLLO DE APLICACIONES OPEN SOURCE}\par}
 \vspace{0.25cm}
 {\large \textbf{NRC 11848}\par}
 
