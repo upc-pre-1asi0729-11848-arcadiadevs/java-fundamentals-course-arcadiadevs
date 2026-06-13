@@ -8,18 +8,18 @@ Para esta clase continuaremos usando OnlineGDB, un entorno de programación en l
 
 Una vez que abras el enlace, verás una interfaz dividida en dos paneles: a la izquierda está el editor de código donde escribiremos nuestras instrucciones, y a la derecha aparecerá la consola donde la computadora nos mostrará los resultados. Para ejecutar el programa, simplemente presiona el botón verde de "Run" en la parte superior.
 
-![Captura de OnlineGDB con el proyecto precargado](../assets/class-6/image.png){width=80%}
+![Captura de OnlineGDB con el proyecto precargado](../assets/lesson-06/image.png){width=80%}
 
 ## Notas de la Clase
 
 ¡Hola, equipo creador! Hasta ahora, nuestra aplicación solo nos habla a nosotros. Escribe saludos, nos cuenta historias y nos da resultados matemáticos, pero es un monólogo. Para que un videojuego o programa sea realmente divertido, necesitamos que la computadora nos escuche. Hoy vamos a enseñarle a nuestra aplicación a prestar atención a nuestro teclado y responder en consecuencia.
 
-![Imagen de un reportero](../assets/class-6/computadora-hablando.jpg){width=40%}
+![Imagen de un reportero](../assets/lesson-06/computadora-hablando.jpg){width=40%}
 
 **El Micrófono de la Computadora (`Scanner`):**
 Imagina a un reportero en la calle con un micrófono, esperando a que alguien hable. En Java, ese reportero tiene un nombre especial: se llama `Scanner`. Es una herramienta (o clase) que viene incluida en una caja de herramientas gigante que nos regala Java, llamada biblioteca estándar. Así que lo primero que debemos hacer es "pedir prestado" el micrófono usando la palabra mágica `import`. Luego, creamos nuestro propio reportero en nuestro código y le decimos que esté atento al teclado (`System.in`).
 
-![Imagen de un reportero](../assets/class-6/reportero.jpg){width=50%}
+![Imagen de un reportero](../assets/lesson-06/reportero.jpg){width=50%}
 
 **Guardando lo que Escuchamos:**
 Cuando el reportero escucha algo y tú presionas la tecla "Enter", no podemos simplemente dejar que esas palabras se las lleve el viento. Tenemos que guardarlas en las cajas mágicas (variables) que ya conocemos. Si el usuario escribe su nombre, lo atrapamos en una caja de tipo `String` usando una instrucción llamada `nextLine()`. Si escribe su edad, la atrapamos en un `int` usando `nextInt()`.

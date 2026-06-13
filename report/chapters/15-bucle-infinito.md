@@ -8,7 +8,7 @@ Para esta clase continuaremos usando **OnlineGDB**, el entorno de desarrollo en 
 
 Al igual que en las clases anteriores, verás la interfaz con el editor de código a la izquierda y la consola a la derecha. Recuerda que para ejecutar el programa debes presionar el botón verde de "Run" en la parte superior de la pantalla.
 
-![Captura de OnlineGDB con el proyecto precargado](../assets/class-5/gdb-clase-5-precargado.png){width=80%}
+![Captura de OnlineGDB con el proyecto precargado](../assets/lesson-05/gdb-clase-5-precargado.png){width=80%}
 
 ## Notas de la Clase
 
@@ -16,13 +16,13 @@ Hola de nuevo, creadores! Hoy aprenderemos a usar los "bucles", que son estructu
 
 **El Bucle "Mientras" (`while`) y el bucle "Para" (`for`)**
 
-![Bucle infinito - Error que congela](../assets/class-5/persona-frustrada-laptop-loading.png){width=80%}
+![Bucle infinito - Error que congela](../assets/lesson-05/persona-frustrada-laptop-loading.png){width=80%}
 
 Los bucles nos permiten repetir tareas automáticamente sin escribir el mismo código una y otra vez. En Java tenemos dos tipos principales de bucles:
 
 - **Bucle `while`:** Funciona bajo una condición. Imagina que comes palomitas: "Mientras haya palomitas en el tazón, toma una y cómetela".
 
-![Analogía del bucle while - Palomitas](../assets/class-5/analogia-del-while.png){width=60%}
+![Analogía del bucle while - Palomitas](../assets/lesson-05/analogia-del-while.png){width=60%}
 
 La computadora repetirá el código mientras la condición sea Verdadera. Nota crítica: Si olvidas programar la instrucción que "vacía el tazón" (reducir la variable), el programa caerá en un bucle infinito y se congelará. Por eso es fundamental siempre tener una forma de que el bucle termine.
 
@@ -76,7 +76,7 @@ Observa en el código anterior cómo cada tipo de bucle tiene su propia ventaja.
 
 ## Actividad Práctica de la Clase: 
 
-![Cuenta regresiva del cohete](../assets/class-5/cuenta-regresiva-cohete.png){width=70%}
+![Cuenta regresiva del cohete](../assets/lesson-05/cuenta-regresiva-cohete.png){width=70%}
 
 **El Reto del Lanzamiento Espacial:**
 
