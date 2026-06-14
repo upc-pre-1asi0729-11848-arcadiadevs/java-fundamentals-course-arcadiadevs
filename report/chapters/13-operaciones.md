@@ -15,15 +15,18 @@ Una vez que abras el enlace, verás una interfaz dividida en dos paneles: a la i
 
 ![Ilustración de cambio de valores en una caja](../assets/lesson-03/numeros-cambio.jpg){width=50%}
 
-**Superpoderes Matemáticos:**
+**Superpoderes Matemáticos**
+
 Java es como una calculadora gigante ultra rápida. Podemos usar las mismas operaciones que haces en la escuela: suma (`+`), resta (`-`), multiplicación (`*` que representamos con un asterisco) y división (`/` que es una barra inclinada). Si tu personaje tiene 100 puntos de vida y recibe una poción de 50 puntos, le decimos a la computadora: `vida = vida + 50`. ¡Así de sencillo! Java resolverá la matemática y guardará el nuevo resultado en la caja de inmediato.
 
-**Inteligencia Lógica y el Detector de Mentiras:**
+**Inteligencia Lógica y el Detector de Mentiras**
+
 Además de las matemáticas, nuestra aplicación puede hacer preguntas. Por ejemplo, ¿tengo más de 10 monedas para comprar esa espada? Aquí usamos operaciones lógicas que actúan como pequeños detectores de mentiras. Comparamos valores usando el símbolo mayor que (`>`), menor que (`<`), o si dos cosas son exactamente iguales usando dos signos de igual (`==`). La computadora siempre responderá con un simple "Verdadero" (`true`) o "Falso" (`false`). A este tipo de respuestas precisas las llamamos "Booleanos".
 
 ![Ilustración de Operadores lógicos en base al ejemplo](../assets/lesson-03/operadores-logicos.jpg){width=50%}
 
 **Código en Acción: Combinando Poderes**
+
 Miremos la pantalla. En nuestro entorno online, vamos a crear dos variables: `fuerza` y `magia`. Si queremos calcular el `poderTotal`, simplemente decimos:
 ```java
 int poderTotal = fuerza + magia;
@@ -34,9 +37,10 @@ System.out.println(poderTotal > 100);
 ```
 Si sumamos 60 de fuerza y 50 de magia, nos mostrará `true`.
 
-## Actividad Práctica:
+## Actividad Práctica de la Clase:
 
 **El Reto de la Tienda de Hechizos:**
+
 Tu héroe entró a una tienda para comprar suministros mágicos, ¡pero la computadora de la tienda falló! Usa la tuya para calcular cuánto oro le falta y ayudarle a completar su compra.
 
 ## Proyecto Integrador: El Registro de Estudiantes
