@@ -13,12 +13,14 @@ Para esta clase continuaremos usando **OnlineGDB**, el mismo entorno en línea q
 
 ![Ilustración de Elección entre dos rutas](../assets/lesson-04/eleccion-caminos.jpg){width=40%}
 
-**La Analogía del Guardia de Seguridad (`if-else`):**
+**La Analogía del Guardia de Seguridad (`if-else`)**
+
 Imagina una montaña rusa increíble. En la entrada hay un guardia de seguridad con una regla de medir. La instrucción es clara: "Si mides más de 1.40 metros, puedes subir. Si no, debes buscar otra atracción". En Java, a esta instrucción la llamamos `if` (que en inglés significa "si" condicional) y `else` (que sería nuestro "si no"). Funciona como un camino en forma de "Y". La aplicación llega, se hace una pregunta (nuestro detector de mentiras Verdadero/Falso de la clase pasada) y toma un camino u otro. ¡Nunca los dos a la vez!
 
 ![Ilustración de If-else](../assets/lesson-04/if-else.jpg){width=50%}
 
-**Código en Acción: Programando al Guardia:**
+**Código en Acción: Programando al Guardia**
+
 Viajemos a nuestra plataforma online. Abriremos nuestras llaves mágicas que encierran las acciones de cada camino. Vamos a escribir:
 ```java
 if (alturaUsuario > 1.40) { System.out.println("¡A divertirse!"); }
@@ -29,12 +31,14 @@ else { System.out.println("Lo siento, vuelve el otro año."); }
 ```
 Con esto, la computadora salta automáticamente a la respuesta correcta según la altura que guardemos en nuestra variable. 
 
-**Múltiples Caminos (`else if`):**
+**Múltiples Caminos (`else if`)**
+
 ¿Pero qué pasa si el usuario mide más de 2 metros y golpeará su cabeza con la montaña rusa de túneles? En ese caso, necesitamos un camino extra antes del "si no". Usamos `else if`, que nos permite hacer una segunda pregunta: "¿Mide más de 2 metros?". De esta manera podemos agregar tantas opciones como escenarios necesitemos controlar en un juego o sistema. La aplicación revisa la primera pregunta, luego la segunda y, como último recurso, cae en el `else`.
 
-## Actividad Práctica:
+## Actividad Práctica de la Clase:
 
 **El Reto de la Puerta Secreta:**
+
 Eres el guardián digital del Club de Superhéroes y la contraseña ha cambiado. Tu reto es crear un programa que valide si la contraseña ingresada es correcta, imprimiendo un mensaje de bienvenida si acierta o un mensaje de intruso si falla.
 
 ## Proyecto Integrador: El Registro de Estudiantes
