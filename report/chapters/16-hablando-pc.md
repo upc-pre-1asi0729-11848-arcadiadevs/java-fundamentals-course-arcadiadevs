@@ -4,11 +4,11 @@
 
 *Enlace al video de YouTube:* [**https://youtu.be/mTaBdmJT4Gg**](https://youtu.be/mTaBdmJT4Gg)
 
-Para esta clase continuaremos usando **OnlineGDB**, un entorno de programación en línea que funciona directamente desde el navegador. No necesitas instalar nada en tu computadora. Solo haz clic en el siguiente enlace y verás el código inicial de la clase ya listo para ejecutar: [**https://onlinegdb.com/3gcDgp4lY**](https://onlinegdb.com/3gcDgp4lY)
+Para esta clase continuaremos usando **OnlineGDB**, un entorno de programación en línea que funciona directamente desde el navegador. No necesitas instalar nada en tu computadora. Solo haz clic en el siguiente enlace y verás el código inicial de la clase ya listo para ejecutar: [**https://onlinegdb.com/HLK1muGck**](https://onlinegdb.com/HLK1muGck)
 
 Una vez que abras el enlace, verás una interfaz dividida en dos paneles: a la izquierda está el editor de código donde escribiremos nuestras instrucciones, y a la derecha aparecerá la consola donde la computadora nos mostrará los resultados. Para ejecutar el programa, simplemente presiona el botón verde de "Run" en la parte superior.
 
-![Captura de OnlineGDB con el proyecto precargado](../assets/lesson-06/image.png){width=80%}
+![Captura de OnlineGDB con el proyecto precargado](../assets/lesson-06/gdb-clase-6-precargado.png){width=80%}
 
 ## Notas de la Clase
 
