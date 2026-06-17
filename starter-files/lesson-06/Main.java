@@ -22,7 +22,6 @@ public class Main {
 
         
         // Atrapamos el número usando nextInt() en una caja entera
-;
         
         // 6. Usar lógica (if) sobre lo que nos respondió
 

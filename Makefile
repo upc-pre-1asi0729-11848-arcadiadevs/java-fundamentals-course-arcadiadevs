@@ -1,24 +1,34 @@
 OUTPUT_DIR=build
-PDF_DEFAULTS=pandoc/report.yaml
 
-PDF_FRONT = $(sort $(wildcard report/front-matter/*.md))
-CHAPTERS = $(sort $(wildcard report/chapters/*.md))
-BACK_MATTER = $(sort $(wildcard report/back-matter/*.md))
+# --- Plan de Curso (sin branding) ---
+PLAN_YAML=pandoc/plan.yaml
+PLAN_FRONT = report/front-matter/plan-cover.md report/front-matter/02-toc.md report/front-matter/03-abstract.md report/front-matter/04-guia-alumnos.md
+PLAN_CHAPTERS = $(sort $(wildcard report/chapters/1[1-8]-*.md)) report/chapters/99-bibliography.md
+PLAN_BACK = $(sort $(wildcard report/back-matter/*.md))
+PLAN_FILES = $(PLAN_FRONT) $(PLAN_CHAPTERS) $(PLAN_BACK)
+PLAN_PDF=$(OUTPUT_DIR)/upc-pre-202610-1asi0729-11848-ArcadiaDevs-course-plan.pdf
 
-PDF_FILES = $(PDF_FRONT) $(CHAPTERS) $(BACK_MATTER)
+# --- Informe del Proyecto (con branding) ---
+INFORME_YAML=pandoc/informe.yaml
+INFORME_FRONT = report/front-matter/informe-cover.md report/front-matter/02-toc.md report/front-matter/03-abstract.md report/front-matter/04-guia-alumnos.md
+INFORME_CHAPTERS = $(sort $(wildcard report/chapters/*.md))
+INFORME_BACK = $(sort $(wildcard report/back-matter/*.md))
+INFORME_FILES = $(INFORME_FRONT) $(INFORME_CHAPTERS) $(INFORME_BACK)
+INFORME_PDF=$(OUTPUT_DIR)/upc-pre-202610-1asi0729-11848-ArcadiaDevs-java-course-report.pdf
 
-PDF=$(OUTPUT_DIR)/upc-pre-202610-1asi0729-11848-ArcadiaDevs-course-plan.pdf
-
-all: pdf
+all: plan informe
 
 $(OUTPUT_DIR):
 	if not exist "$(OUTPUT_DIR)" mkdir "$(OUTPUT_DIR)"
 
-pdf: $(OUTPUT_DIR)
-	pandoc --defaults="$(PDF_DEFAULTS)" --syntax-highlighting=idiomatic -o "$(PDF)" $(PDF_FILES)
+plan: $(OUTPUT_DIR)
+	pandoc --defaults="$(PLAN_YAML)" --syntax-highlighting=idiomatic -o "$(PLAN_PDF)" $(PLAN_FILES)
+
+informe: $(OUTPUT_DIR)
+	pandoc --defaults="$(INFORME_YAML)" --syntax-highlighting=idiomatic -o "$(INFORME_PDF)" $(INFORME_FILES)
 
 clean:
 	if exist "$(OUTPUT_DIR)" rmdir /s /q "$(OUTPUT_DIR)"
 rebuild: clean all
 
-.PHONY: all pdf clean rebuild
+.PHONY: all plan informe clean rebuild
