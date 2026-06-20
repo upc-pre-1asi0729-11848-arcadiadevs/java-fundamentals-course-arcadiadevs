@@ -197,3 +197,50 @@ Los PDFs se generan en el directorio `build/`:
 ## Uso
 
 Este curso es de uso educativo. El código fuente está disponible para aprendizaje y práctica de programación con Java.
+
+---
+
+## Resumen de la elaboración en equipo
+
+El curso "Java para Creadores" fue diseñado y producido de manera colaborativa por el equipo **ArcadiaDevs**, conformado por seis estudiantes de Ingeniería de Software de la Universidad Peruana de Ciencias Aplicadas.
+
+### Distribución de responsabilidades
+
+| Miembro | Rol Principal | Lecciones |
+|---------|---------------|-----------|
+| Trinidad León, Jahat Jassiel | Coordinación general, postproducción | 1, 2 |
+| Santi Guerrero, Fabrizio Alonso | Postproducción, edición de videos | 3, 4 |
+| Li Gayoso, Diana Carolina | Investigación pedagógica, revisión de contenido | 5 |
+| Espada Lazo, Piero Anthony | Diseño instruccional, guiones | 6 |
+| Carpio Peña, Josué Francisco | Desarrollo de código Java | 7 |
+| Paredes Maza, Víctor Juan de Dios | Gestión del repositorio, documentación | 8 |
+
+### Proceso de trabajo
+
+1. **Investigación y planeación**: Se definieron objetivos de aprendizaje y público objetivo.
+2. **Diseño curricular**: Se estructuraron 8 lecciones con progresión lógica.
+3. **Desarrollo de contenido**: Guiones, código Java y material de lectura.
+4. **Grabación y edición**: Videos producidos con OnlineGDB y editados con Clipchamp.
+5. **Documentación**: Repositorio en GitHub con generación automática de PDF.
+
+---
+
+## Elaboración
+
+Universidad Peruana de Ciencias Aplicadas  
+Carrera de Ingeniería de Software  
+Período 202610  
+1ASI0729 Desarrollo de Aplicaciones Open Source  
+NRC 11848  
+
+**Nombre del equipo**: ArcadiaDevs  
+**Líder del equipo**: Trinidad León, Jahat Jassiel  
+**Integrantes del equipo**:  
+- Carpio Peña, Josué Francisco  
+- Espada Lazo, Piero Anthony  
+- Li Gayoso, Diana Carolina  
+- Paredes Maza, Víctor Juan de Dios  
+- Santi Guerrero, Fabrizio Alonso  
+- Trinidad León, Jahat Jassiel  
+
+**Fecha de entrega**: Junio, 2026

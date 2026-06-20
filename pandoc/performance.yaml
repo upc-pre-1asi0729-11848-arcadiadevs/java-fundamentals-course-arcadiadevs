@@ -1,0 +1,32 @@
+metadata:
+  title: "Participant Performance Report"
+  subtitle: "Plan de Curso: Java para Creadores"
+  author:
+    - "Trinidad León, Jahat Jassiel"
+  institution: "Universidad Peruana de Ciencias Aplicadas"
+  department: "Carrera de Ingeniería de Software"
+  date: "Junio, 2026"
+  lang: es-ES
+  mainfont: "Inter"
+  sansfont: "Inter"
+  monofont: "Source Code Pro"
+  colorlinks: true
+  linkcolor: customlinkcolor
+  urlcolor: customlinkcolor
+  filecolor: customlinkcolor
+  citecolor: customlinkcolor
+  geometry:
+    - landscape
+    - margin=1.5cm
+  disable-header-and-footer: true
+from: markdown
+standalone: true
+toc: false
+template: pandoc/templates/eisvogel.tex
+pdf-engine: xelatex
+include-in-header: pandoc/code-style.tex
+
+resource-path:
+  - .
+  - report
+  - report/assets

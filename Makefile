@@ -16,7 +16,12 @@ INFORME_BACK = $(sort $(wildcard report/back-matter/*.md))
 INFORME_FILES = $(INFORME_FRONT) $(INFORME_CHAPTERS) $(INFORME_BACK)
 INFORME_PDF=$(OUTPUT_DIR)/upc-pre-202610-1asi0729-11848-ArcadiaDevs-java-course-report.pdf
 
-all: plan informe
+# --- Participant Performance Report ---
+PERFORMANCE_YAML=pandoc/performance.yaml
+PERFORMANCE_FILE=participant-performance-report.md
+PERFORMANCE_PDF=$(OUTPUT_DIR)/upc-pre-202610-1asi0729-11848-ArcadiaDevs-course-plan-performance.pdf
+
+all: plan informe performance
 
 $(OUTPUT_DIR):
 	if not exist "$(OUTPUT_DIR)" mkdir "$(OUTPUT_DIR)"
@@ -27,8 +32,11 @@ plan: $(OUTPUT_DIR)
 informe: $(OUTPUT_DIR)
 	pandoc --defaults="$(INFORME_YAML)" --syntax-highlighting=idiomatic -o "$(INFORME_PDF)" $(INFORME_FILES)
 
+performance: $(OUTPUT_DIR)
+	pandoc --defaults="$(PERFORMANCE_YAML)" --syntax-highlighting=idiomatic -o "$(PERFORMANCE_PDF)" $(PERFORMANCE_FILE)
+
 clean:
 	if exist "$(OUTPUT_DIR)" rmdir /s /q "$(OUTPUT_DIR)"
 rebuild: clean all
 
-.PHONY: all plan informe clean rebuild
+.PHONY: all plan informe performance clean rebuild
