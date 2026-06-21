@@ -45,8 +45,4 @@ El curso se rige bajo una filosofía de **"Aprender Haciendo" (Project-Based Lea
  
 Este curso está diseñado específicamente para estudiantes de secundaria de entre 12 y 17 años que tengan conocimientos básicos de computación a nivel de usuario y navegación web, sin ningún requerimiento de experiencia previa en codificación. Al culminar el curso, el perfil de egreso capacita al estudiante para comprender el flujo lógico de un programa informático, modelar objetos del mundo real en código Java, y resolver problemas estructurados de forma modular y ordenada.
 
----
-
-*Documento elaborado como parte del Proyecto de Responsabilidad Social del curso 1ASI0729 - Desarrollo de Aplicaciones Open Source, Universidad Peruana de Ciencias Aplicadas, Ciclo 202610.*
-
 \newpage
