@@ -8,82 +8,75 @@ nocite: '[@*]'
 \setlength{\parindent}{0pt}
 \setlength{\parskip}{0pt}
 
-\vspace*{0.5cm}
+\vspace*{1.0cm}
 
 \includegraphics[width=2.5cm]{report/assets/branding/logo-upc.png}
 
-\vspace{0.40cm}
+\vspace{0.8cm}
 
 {\Large \textbf{UNIVERSIDAD PERUANA DE CIENCIAS APLICADAS}\par}
-\vspace{0.15cm}
-{\large "Año de la Esperanza y el Fortalecimiento de la Democracia"\par}
+\vspace{0.2cm}
+{\large Ingeniería de Software\par}
 
-\vspace{1.0cm}
+\vspace{1.5cm}
 
-{\Large \textbf{1ASI0729 - DESARROLLO DE APLICACIONES OPEN SOURCE}\par}
-\vspace{0.25cm}
-{\large \textbf{NRC 11848}\par}
+{\Large \textbf{1ASI0729}\par}
+{\large \textbf{DESARROLLO DE APLICACIONES OPEN SOURCE}\par}
+
+\vspace{0.3cm}
+
+{\large NRC\par}
+\vspace{0.1cm}
+{\Large \textbf{11848}\par}
+
+\vspace{0.5cm}
+
+{\LARGE \textbf{Informe del Plan de Curso de Fundamentos de Java}\par}
+
+\vspace{0.5cm}
+
+{\large Docente\par}
+\vspace{0.1cm}
+{\Large \textbf{Velásquez Núñez, Ángel Augusto}\par}
+
+\vspace{0.5cm}
+
+{\large Equipo\par}
+\vspace{0.1cm}
+{\Large \textbf{ArcadiaDevs}\par}
+
+\vspace{0.5cm}
+
+{\large Proyecto\par}
+\vspace{0.1cm}
+{\Large \textbf{Curso: Java para Creadores}\par}
 
 \vspace{0.8cm}
 
-{\large \textbf{Docente:}\par}
-\vspace{0.10cm}
-{\normalsize Velásquez Núñez, Ángel Augusto\par}
+{\large \textbf{Integrantes}\par}
 
-\vspace{1.0cm}
-
-{\LARGE \textbf{Informe del Proyecto}\par}
-\vspace{0.15cm}
-{\large Plan de Curso: Java para Creadores\par}
-
-\vspace{2.0cm}
-
-{\large \textbf{CARRERA:}\par}
-\vspace{0.10cm}
-{\normalsize Ingeniería de Software\par}
-
-\vspace{0.35cm}
-
-{\large \textbf{CICLO:}\par}
-\vspace{0.10cm}
-{\normalsize 202610\par}
-
-\vspace{0.40cm}
-
-{\large \textbf{INTEGRANTES:}\par}
-
-\vspace{0.20cm}
+\vspace{0.2cm}
 
 {\small
-\renewcommand{\arraystretch}{1.08}
-\setlength{\tabcolsep}{6pt}
-\begin{tabular}{|p{7.2cm}|p{2.6cm}|}
-\hline
-\centering \textbf{Alumnos} & \centering \textbf{Código} \tabularnewline
-\hline
-Carpio Peña, Josué Francisco & U202519273 \tabularnewline
-\hline
-Espada Lazo, Piero Anthony & U20241d924 \tabularnewline
-\hline
-Li Gayoso, Diana Carolina & U202415749 \tabularnewline
-\hline
-Paredes Maza, Víctor Juan de Dios & U202416274 \tabularnewline
-\hline
-Santi Guerrero, Fabrizio Alonso & U202411774 \tabularnewline
-\hline
-Trinidad León, Jahat Jassiel & U202412248 \tabularnewline
-\hline
+\renewcommand{\arraystretch}{1.2}
+\setlength{\tabcolsep}{10pt}
+\begin{tabular}{cl}
+\textbf{Código} & \textbf{Apellidos y Nombres} \tabularnewline
+\vspace{0.1cm}
+U202519273 & Carpio Peña, Josué Francisco \tabularnewline
+U20241d924 & Espada Lazo, Piero Anthony \tabularnewline
+U202415749 & Li Gayoso, Diana Carolina \tabularnewline
+U202416274 & Paredes Maza, Víctor Juan de Dios \tabularnewline
+U202411774 & Santi Guerrero, Fabrizio Alonso \tabularnewline
+U202412248 & Trinidad León, Jahat Jassiel \tabularnewline
 \end{tabular}
 }
 
 \vspace{1.0cm}
 
-{\normalsize
-\begin{tabular}{cc}
-Junio, 2026
-\end{tabular}
-\par
-}
+{\large \textbf{Periodo 202610}\par}
+\vspace{0.1cm}
+{\normalsize Junio, 2026\par}
 
 \end{titlepage}
 \restoregeometry
