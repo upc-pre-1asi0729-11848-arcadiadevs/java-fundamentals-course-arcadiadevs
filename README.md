@@ -27,8 +27,8 @@ Este curso de **1 hora** introduce a estudiantes de secundaria a los fundamentos
 |---------|--------|
 | **Video en YouTube** | [Ver lección](https://youtu.be/WHyT_X3i-pI) |
 | **Práctica Online** | [Abrir OnlineGDB](https://onlinegdb.com/k7D7hK9uZ) |
-| **Código Inicial** | [starter-files/lesson-01/Main.java](starter-files/lesson-01/Main.java) |
-| **Código Elaborado** | [completed-examples/lesson-01/Main.java](completed-examples/lesson-01/Main.java) |
+| **Código Inicial** | [starter-files/lesson-01/Main.java](https://github.com/upc-pre-1asi0729-11848-arcadiadevs/java-fundamentals-course-arcadiadevs/blob/main/starter-files/lesson-01/Main.java) |
+| **Código Elaborado** | [completed-examples/lesson-01/Main.java](https://github.com/upc-pre-1asi0729-11848-arcadiadevs/java-fundamentals-course-arcadiadevs/blob/main/completed-examples/lesson-01/Main.java) |
 
 ---
 
@@ -38,8 +38,8 @@ Este curso de **1 hora** introduce a estudiantes de secundaria a los fundamentos
 |---------|--------|
 | **Video en YouTube** | [Ver lección](https://youtu.be/p_KOy6f-76Q) |
 | **Práctica Online** | [Abrir OnlineGDB](https://onlinegdb.com/O6b5gyEv2) |
-| **Código Inicial** | [starter-files/lesson-02/Main.java](starter-files/lesson-02/Main.java) |
-| **Código Elaborado** | [completed-examples/lesson-02/Main.java](completed-examples/lesson-02/Main.java) |
+| **Código Inicial** | [starter-files/lesson-02/Main.java](https://github.com/upc-pre-1asi0729-11848-arcadiadevs/java-fundamentals-course-arcadiadevs/blob/main/starter-files/lesson-02/Main.java) |
+| **Código Elaborado** | [completed-examples/lesson-02/Main.java](https://github.com/upc-pre-1asi0729-11848-arcadiadevs/java-fundamentals-course-arcadiadevs/blob/main/completed-examples/lesson-02/Main.java) |
 
 ---
 
@@ -49,8 +49,8 @@ Este curso de **1 hora** introduce a estudiantes de secundaria a los fundamentos
 |---------|--------|
 | **Video en YouTube** | [Ver lección](https://youtu.be/bn6O6CUm-W8) |
 | **Práctica Online** | [Abrir OnlineGDB](https://onlinegdb.com/E5iM0EisJ) |
-| **Código Inicial** | [starter-files/lesson-03/Main.java](starter-files/lesson-03/Main.java) |
-| **Código Elaborado** | [completed-examples/lesson-03/Main.java](completed-examples/lesson-03/Main.java) |
+| **Código Inicial** | [starter-files/lesson-03/Main.java](https://github.com/upc-pre-1asi0729-11848-arcadiadevs/java-fundamentals-course-arcadiadevs/blob/main/starter-files/lesson-03/Main.java) |
+| **Código Elaborado** | [completed-examples/lesson-03/Main.java](https://github.com/upc-pre-1asi0729-11848-arcadiadevs/java-fundamentals-course-arcadiadevs/blob/main/completed-examples/lesson-03/Main.java) |
 
 ---
 
@@ -60,8 +60,8 @@ Este curso de **1 hora** introduce a estudiantes de secundaria a los fundamentos
 |---------|--------|
 | **Video en YouTube** | [Ver lección](https://youtu.be/0FxxNLhrhZs) |
 | **Práctica Online** | [Abrir OnlineGDB](https://onlinegdb.com/SGfcIy9Wp) |
-| **Código Inicial** | [starter-files/lesson-04/Main.java](starter-files/lesson-04/Main.java) |
-| **Código Elaborado** | [completed-examples/lesson-04/Main.java](completed-examples/lesson-04/Main.java) |
+| **Código Inicial** | [starter-files/lesson-04/Main.java](https://github.com/upc-pre-1asi0729-11848-arcadiadevs/java-fundamentals-course-arcadiadevs/blob/main/starter-files/lesson-04/Main.java) |
+| **Código Elaborado** | [completed-examples/lesson-04/Main.java](https://github.com/upc-pre-1asi0729-11848-arcadiadevs/java-fundamentals-course-arcadiadevs/blob/main/completed-examples/lesson-04/Main.java) |
 
 ---
 
@@ -71,8 +71,8 @@ Este curso de **1 hora** introduce a estudiantes de secundaria a los fundamentos
 |---------|--------|
 | **Video en YouTube** | [Ver lección](https://youtu.be/oGUC9LY47PU) |
 | **Práctica Online** | [Abrir OnlineGDB](https://onlinegdb.com/Jv99DRncv) |
-| **Código Inicial** | [starter-files/lesson-05/Main.java](starter-files/lesson-05/Main.java) |
-| **Código Elaborado** | [completed-examples/lesson-05/Main.java](completed-examples/lesson-05/Main.java) |
+| **Código Inicial** | [starter-files/lesson-05/Main.java](https://github.com/upc-pre-1asi0729-11848-arcadiadevs/java-fundamentals-course-arcadiadevs/blob/main/starter-files/lesson-05/Main.java) |
+| **Código Elaborado** | [completed-examples/lesson-05/Main.java](https://github.com/upc-pre-1asi0729-11848-arcadiadevs/java-fundamentals-course-arcadiadevs/blob/main/completed-examples/lesson-05/Main.java) |
 
 ---
 
@@ -82,8 +82,8 @@ Este curso de **1 hora** introduce a estudiantes de secundaria a los fundamentos
 |---------|--------|
 | **Video en YouTube** | [Ver lección](https://youtu.be/mTaBdmJT4Gg) |
 | **Práctica Online** | [Abrir OnlineGDB](https://onlinegdb.com/3gcDgp4lY) |
-| **Código Inicial** | [starter-files/lesson-06/Main.java](starter-files/lesson-06/Main.java) |
-| **Código Elaborado** | [completed-examples/lesson-06/Main.java](completed-examples/lesson-06/Main.java) |
+| **Código Inicial** | [starter-files/lesson-06/Main.java](https://github.com/upc-pre-1asi0729-11848-arcadiadevs/java-fundamentals-course-arcadiadevs/blob/main/starter-files/lesson-06/Main.java) |
+| **Código Elaborado** | [completed-examples/lesson-06/Main.java](https://github.com/upc-pre-1asi0729-11848-arcadiadevs/java-fundamentals-course-arcadiadevs/blob/main/completed-examples/lesson-06/Main.java) |
 
 ---
 
@@ -93,8 +93,8 @@ Este curso de **1 hora** introduce a estudiantes de secundaria a los fundamentos
 |---------|--------|
 | **Video en YouTube** | [Ver lección](https://youtu.be/BC05SINWsPw) |
 | **Práctica Online** | [Abrir OnlineGDB](https://onlinegdb.com/q-w8GXz3T) |
-| **Código Inicial** | [starter-files/lesson-07/Main.java](starter-files/lesson-07/Main.java) |
-| **Código Elaborado** | [completed-examples/lesson-07/Main.java](completed-examples/lesson-07/Main.java) |
+| **Código Inicial** | [starter-files/lesson-07/Main.java](https://github.com/upc-pre-1asi0729-11848-arcadiadevs/java-fundamentals-course-arcadiadevs/blob/main/starter-files/lesson-07/Main.java) |
+| **Código Elaborado** | [completed-examples/lesson-07/Main.java](https://github.com/upc-pre-1asi0729-11848-arcadiadevs/java-fundamentals-course-arcadiadevs/blob/main/completed-examples/lesson-07/Main.java) |
 
 ---
 
@@ -104,8 +104,8 @@ Este curso de **1 hora** introduce a estudiantes de secundaria a los fundamentos
 |---------|--------|
 | **Video en YouTube** | [Ver lección](https://youtu.be/ZBgI_4ZwoPA) |
 | **Práctica Online** | [Abrir OnlineGDB](https://onlinegdb.com/bKfRzLfjx) |
-| **Código Inicial** | [starter-files/lesson-08/Main.java](starter-files/lesson-08/Main.java) |
-| **Código Elaborado** | [completed-examples/lesson-08/Main.java](completed-examples/lesson-08/Main.java) |
+| **Código Inicial** | [starter-files/lesson-08/Main.java](https://github.com/upc-pre-1asi0729-11848-arcadiadevs/java-fundamentals-course-arcadiadevs/blob/main/starter-files/lesson-08/Main.java) |
+| **Código Elaborado** | [completed-examples/lesson-08/Main.java](https://github.com/upc-pre-1asi0729-11848-arcadiadevs/java-fundamentals-course-arcadiadevs/blob/main/completed-examples/lesson-08/Main.java) |
 
 ---
 
@@ -137,6 +137,16 @@ java-fundamentals-course-arcadiadevs/
 ├── build/                  # PDFs generados
 └── README.md               # Este archivo
 ```
+
+### Enlaces a Carpetas
+| Carpeta | Enlace |
+|---------|--------|
+| **starter-files/** | [starter-files/](https://github.com/upc-pre-1asi0729-11848-arcadiadevs/java-fundamentals-course-arcadiadevs/tree/main/starter-files) |
+| **completed-examples/** | [completed-examples/](https://github.com/upc-pre-1asi0729-11848-arcadiadevs/java-fundamentals-course-arcadiadevs/tree/main/completed-examples) |
+| **scripts/** | [scripts/](https://github.com/upc-pre-1asi0729-11848-arcadiadevs/java-fundamentals-course-arcadiadevs/tree/main/scripts) |
+| **report/** | [report/](https://github.com/upc-pre-1asi0729-11848-arcadiadevs/java-fundamentals-course-arcadiadevs/tree/main/report) |
+| **pandoc/** | [pandoc/](https://github.com/upc-pre-1asi0729-11848-arcadiadevs/java-fundamentals-course-arcadiadevs/tree/main/pandoc) |
+| **build/** | [build/](https://github.com/upc-pre-1asi0729-11848-arcadiadevs/java-fundamentals-course-arcadiadevs/tree/main/build) |
 
 ---
 

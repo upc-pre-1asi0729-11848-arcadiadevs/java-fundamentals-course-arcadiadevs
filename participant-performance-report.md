@@ -19,14 +19,14 @@
 | | | Soporte en edición de contenido | X | | | | 20 |
 | 3 | Espada Lazo, Piero Anthony | Desarrollo de lección 6 (guiones, código, scripts) | X | | | | |
 | | | Creación de imágenes de código | X | | | | |
-| | | Refactorización de contenido | X | | | | 19 |
+| | | Refactorización de contenido | X | | | | 20 |
 | 4 | Li Gayoso, Diana Carolina | Desarrollo de lección 5 (código, scripts) | X | | | | |
 | | | Investigación de mejores prácticas de enseñanza | X | | | | |
-| | | Validación de contenido | X | | | | 19 |
+| | | Validación de contenido | X | | | | 20 |
 | 5 | Carpio Peña, Josué Francisco | Desarrollo de lección 7 (contenido, código) | X | | | | |
-| | | Creación de archivos starter y completed | X | | | | 17 |
+| | | Creación de archivos starter y completed | X | | | | 20 |
 | 6 | Paredes Maza, Víctor Juan de Dios | Desarrollo de lección 8 (assets, código, scripts) | X | | | | |
-| | | Gestión de estructura del repositorio | X | | | | 19 |
+| | | Gestión de estructura del repositorio | X | | | | 20 |
 
 ---
 
